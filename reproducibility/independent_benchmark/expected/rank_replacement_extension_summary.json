@@ -1,0 +1,11 @@
+{
+  "combined_compatibility_cell_evaluations": 30960,
+  "combined_replicates": 1720,
+  "historical_replicates_reused": 1520,
+  "historical_scenarios_reused": 16,
+  "new_metric_rows": 3600,
+  "new_replicates_executed": 200,
+  "new_scenarios_executed": 2,
+  "status": "PASS",
+  "within_class_selected_set_differences": 0
+}

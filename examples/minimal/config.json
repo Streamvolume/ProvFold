@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0",
+  "analysis_id": "minimal_example",
+  "primary_comparisons": ["case_vs_control"],
+  "primary_evidence_tiers": ["primary"],
+  "direction_states": ["increased", "decreased"],
+  "eligible_family_states": ["cohort_family"],
+  "eligible_mapping_states": ["exact", "rank_folded"],
+  "eligible_record_states": ["eligible"],
+  "target_rank": "genus",
+  "minimum_support": 2,
+  "maximum_opposition": 0,
+  "conflict_policy": "abstain",
+  "comparator_scope": "primary"
+}

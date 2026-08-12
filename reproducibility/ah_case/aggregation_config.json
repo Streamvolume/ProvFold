@@ -1,0 +1,40 @@
+{
+  "analysis_id": "ah_provenance_registry_case",
+  "comparator_scope": "primary",
+  "conflict_policy": "abstain",
+  "direction_states": [
+    "increased_in_AH",
+    "decreased_in_AH"
+  ],
+  "eligible_family_states": [
+    "cohort_family"
+  ],
+  "eligible_mapping_states": [
+    "exact_current_taxon",
+    "accepted_current_reclassification"
+  ],
+  "eligible_record_states": [
+    "eligible"
+  ],
+  "maximum_opposition": 0,
+  "minimum_support": 2,
+  "primary_comparisons": [
+    "direct_AH_healthy"
+  ],
+  "primary_evidence_tiers": [
+    "primary_direct_AH_healthy"
+  ],
+  "rank_order": [
+    "domain",
+    "kingdom",
+    "phylum",
+    "class",
+    "order",
+    "family",
+    "genus",
+    "species",
+    "subspecies"
+  ],
+  "schema_version": "1.0",
+  "target_rank": "genus"
+}

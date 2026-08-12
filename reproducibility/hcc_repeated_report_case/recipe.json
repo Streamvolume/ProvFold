@@ -1,0 +1,12 @@
+{
+  "config": "aggregation_config.json",
+  "input": "input.csv",
+  "operations": [
+    "validate",
+    "aggregate",
+    "compare",
+    "sensitivity",
+    "omit-family"
+  ],
+  "schema_version": "1.0"
+}

@@ -1,0 +1,92 @@
+omitted_family_id,target_taxon,selected_direction,signal_classification,family_count,conflict_family_count,direction_counts_json,policy_hash
+HCC-F01,Acidaminococcus,,not_retained,1,0,"{""decreased_in_hcc"":1,""increased_in_hcc"":0}",be83edd85173b80836df62177bba3ecc92f880b000f8df3289132f8dda567090
+HCC-F01,Actinomyces,,not_retained,1,0,"{""decreased_in_hcc"":0,""increased_in_hcc"":1}",be83edd85173b80836df62177bba3ecc92f880b000f8df3289132f8dda567090
+HCC-F01,Anaerostipes,,not_retained,1,0,"{""decreased_in_hcc"":1,""increased_in_hcc"":0}",be83edd85173b80836df62177bba3ecc92f880b000f8df3289132f8dda567090
+HCC-F01,Anaerotruncus,,not_retained,1,0,"{""decreased_in_hcc"":1,""increased_in_hcc"":0}",be83edd85173b80836df62177bba3ecc92f880b000f8df3289132f8dda567090
+HCC-F01,Atopobium,,not_retained,1,0,"{""decreased_in_hcc"":0,""increased_in_hcc"":1}",be83edd85173b80836df62177bba3ecc92f880b000f8df3289132f8dda567090
+HCC-F01,Blautia,,not_retained,1,0,"{""decreased_in_hcc"":0,""increased_in_hcc"":1}",be83edd85173b80836df62177bba3ecc92f880b000f8df3289132f8dda567090
+HCC-F01,Butyricimonas,,not_retained,1,0,"{""decreased_in_hcc"":1,""increased_in_hcc"":0}",be83edd85173b80836df62177bba3ecc92f880b000f8df3289132f8dda567090
+HCC-F01,Cetobacterium,,not_retained,1,0,"{""decreased_in_hcc"":1,""increased_in_hcc"":0}",be83edd85173b80836df62177bba3ecc92f880b000f8df3289132f8dda567090
+HCC-F01,Cloacibacillus,,not_retained,1,0,"{""decreased_in_hcc"":1,""increased_in_hcc"":0}",be83edd85173b80836df62177bba3ecc92f880b000f8df3289132f8dda567090
+HCC-F01,Coprobacillus,,not_retained,1,0,"{""decreased_in_hcc"":1,""increased_in_hcc"":0}",be83edd85173b80836df62177bba3ecc92f880b000f8df3289132f8dda567090
+HCC-F01,Desulfococcus,,not_retained,1,0,"{""decreased_in_hcc"":0,""increased_in_hcc"":1}",be83edd85173b80836df62177bba3ecc92f880b000f8df3289132f8dda567090
+HCC-F01,Enterobacter,,not_retained,1,0,"{""decreased_in_hcc"":0,""increased_in_hcc"":1}",be83edd85173b80836df62177bba3ecc92f880b000f8df3289132f8dda567090
+HCC-F01,Haemophilus,,not_retained,1,0,"{""decreased_in_hcc"":0,""increased_in_hcc"":1}",be83edd85173b80836df62177bba3ecc92f880b000f8df3289132f8dda567090
+HCC-F01,Holdemania,,not_retained,1,0,"{""decreased_in_hcc"":1,""increased_in_hcc"":0}",be83edd85173b80836df62177bba3ecc92f880b000f8df3289132f8dda567090
+HCC-F01,Lactococcus,,not_retained,1,0,"{""decreased_in_hcc"":0,""increased_in_hcc"":1}",be83edd85173b80836df62177bba3ecc92f880b000f8df3289132f8dda567090
+HCC-F01,Leptotrichia,,not_retained,1,0,"{""decreased_in_hcc"":0,""increased_in_hcc"":1}",be83edd85173b80836df62177bba3ecc92f880b000f8df3289132f8dda567090
+HCC-F01,Methanobrevibacter,,not_retained,1,0,"{""decreased_in_hcc"":1,""increased_in_hcc"":0}",be83edd85173b80836df62177bba3ecc92f880b000f8df3289132f8dda567090
+HCC-F01,Neisseria,,not_retained,1,0,"{""decreased_in_hcc"":0,""increased_in_hcc"":1}",be83edd85173b80836df62177bba3ecc92f880b000f8df3289132f8dda567090
+HCC-F01,Odoribacter,,not_retained,1,0,"{""decreased_in_hcc"":1,""increased_in_hcc"":0}",be83edd85173b80836df62177bba3ecc92f880b000f8df3289132f8dda567090
+HCC-F01,Oribacterium,,not_retained,1,0,"{""decreased_in_hcc"":0,""increased_in_hcc"":1}",be83edd85173b80836df62177bba3ecc92f880b000f8df3289132f8dda567090
+HCC-F01,Paraprevotella,,not_retained,1,0,"{""decreased_in_hcc"":0,""increased_in_hcc"":1}",be83edd85173b80836df62177bba3ecc92f880b000f8df3289132f8dda567090
+HCC-F01,Prevotella,,not_retained,1,0,"{""decreased_in_hcc"":0,""increased_in_hcc"":1}",be83edd85173b80836df62177bba3ecc92f880b000f8df3289132f8dda567090
+HCC-F01,Pyramidobacter,,not_retained,1,0,"{""decreased_in_hcc"":1,""increased_in_hcc"":0}",be83edd85173b80836df62177bba3ecc92f880b000f8df3289132f8dda567090
+HCC-F01,Rothia,,not_retained,1,0,"{""decreased_in_hcc"":0,""increased_in_hcc"":1}",be83edd85173b80836df62177bba3ecc92f880b000f8df3289132f8dda567090
+HCC-F01,Sarcina,,not_retained,1,0,"{""decreased_in_hcc"":0,""increased_in_hcc"":1}",be83edd85173b80836df62177bba3ecc92f880b000f8df3289132f8dda567090
+HCC-F01,Selenomonas,,not_retained,1,0,"{""decreased_in_hcc"":0,""increased_in_hcc"":1}",be83edd85173b80836df62177bba3ecc92f880b000f8df3289132f8dda567090
+HCC-F01,Turicibacter,,not_retained,1,0,"{""decreased_in_hcc"":1,""increased_in_hcc"":0}",be83edd85173b80836df62177bba3ecc92f880b000f8df3289132f8dda567090
+HCC-F01,Veillonella,,not_retained,1,0,"{""decreased_in_hcc"":0,""increased_in_hcc"":1}",be83edd85173b80836df62177bba3ecc92f880b000f8df3289132f8dda567090
+HCC-F02,Acinetobacter,,not_retained,1,0,"{""decreased_in_hcc"":0,""increased_in_hcc"":1}",be83edd85173b80836df62177bba3ecc92f880b000f8df3289132f8dda567090
+HCC-F02,Alloprevotella,,not_retained,1,0,"{""decreased_in_hcc"":1,""increased_in_hcc"":0}",be83edd85173b80836df62177bba3ecc92f880b000f8df3289132f8dda567090
+HCC-F02,Anaerotruncus,,not_retained,1,0,"{""decreased_in_hcc"":0,""increased_in_hcc"":1}",be83edd85173b80836df62177bba3ecc92f880b000f8df3289132f8dda567090
+HCC-F02,Blautia,increased_in_hcc,retained,2,0,"{""decreased_in_hcc"":0,""increased_in_hcc"":2}",be83edd85173b80836df62177bba3ecc92f880b000f8df3289132f8dda567090
+HCC-F02,Clostridium XIVa,,not_retained,1,0,"{""decreased_in_hcc"":1,""increased_in_hcc"":0}",be83edd85173b80836df62177bba3ecc92f880b000f8df3289132f8dda567090
+HCC-F02,Enterococcus,,not_retained,1,0,"{""decreased_in_hcc"":0,""increased_in_hcc"":1}",be83edd85173b80836df62177bba3ecc92f880b000f8df3289132f8dda567090
+HCC-F02,Eubacterium,,not_retained,1,0,"{""decreased_in_hcc"":0,""increased_in_hcc"":1}",be83edd85173b80836df62177bba3ecc92f880b000f8df3289132f8dda567090
+HCC-F02,Eubacterium ventriosum group,,not_retained,1,0,"{""decreased_in_hcc"":1,""increased_in_hcc"":0}",be83edd85173b80836df62177bba3ecc92f880b000f8df3289132f8dda567090
+HCC-F02,Fusobacterium,,not_retained,1,0,"{""decreased_in_hcc"":1,""increased_in_hcc"":0}",be83edd85173b80836df62177bba3ecc92f880b000f8df3289132f8dda567090
+HCC-F02,Gemmiger,,not_retained,1,0,"{""decreased_in_hcc"":0,""increased_in_hcc"":1}",be83edd85173b80836df62177bba3ecc92f880b000f8df3289132f8dda567090
+HCC-F02,Lachnospira,,not_retained,1,0,"{""decreased_in_hcc"":1,""increased_in_hcc"":0}",be83edd85173b80836df62177bba3ecc92f880b000f8df3289132f8dda567090
+HCC-F02,Lachnospiraceae UCG-001,,not_retained,1,0,"{""decreased_in_hcc"":1,""increased_in_hcc"":0}",be83edd85173b80836df62177bba3ecc92f880b000f8df3289132f8dda567090
+HCC-F02,Lactobacillus,,not_retained,1,0,"{""decreased_in_hcc"":0,""increased_in_hcc"":1}",be83edd85173b80836df62177bba3ecc92f880b000f8df3289132f8dda567090
+HCC-F02,Megamonas,,not_retained,1,0,"{""decreased_in_hcc"":1,""increased_in_hcc"":0}",be83edd85173b80836df62177bba3ecc92f880b000f8df3289132f8dda567090
+HCC-F02,Phascolarctobacterium,,not_retained,1,0,"{""decreased_in_hcc"":0,""increased_in_hcc"":1}",be83edd85173b80836df62177bba3ecc92f880b000f8df3289132f8dda567090
+HCC-F02,Prevotella,,not_retained,1,0,"{""decreased_in_hcc"":0,""increased_in_hcc"":1}",be83edd85173b80836df62177bba3ecc92f880b000f8df3289132f8dda567090
+HCC-F02,Raoultella,,not_retained,1,0,"{""decreased_in_hcc"":1,""increased_in_hcc"":0}",be83edd85173b80836df62177bba3ecc92f880b000f8df3289132f8dda567090
+HCC-F02,Ruminococcus 2,,not_retained,1,0,"{""decreased_in_hcc"":1,""increased_in_hcc"":0}",be83edd85173b80836df62177bba3ecc92f880b000f8df3289132f8dda567090
+HCC-F02,Sarcina,,not_retained,1,0,"{""decreased_in_hcc"":0,""increased_in_hcc"":1}",be83edd85173b80836df62177bba3ecc92f880b000f8df3289132f8dda567090
+HCC-F02,Streptococcus,,not_retained,1,0,"{""decreased_in_hcc"":0,""increased_in_hcc"":1}",be83edd85173b80836df62177bba3ecc92f880b000f8df3289132f8dda567090
+HCC-F03,Acidaminococcus,,not_retained,1,0,"{""decreased_in_hcc"":1,""increased_in_hcc"":0}",be83edd85173b80836df62177bba3ecc92f880b000f8df3289132f8dda567090
+HCC-F03,Acinetobacter,,not_retained,1,0,"{""decreased_in_hcc"":0,""increased_in_hcc"":1}",be83edd85173b80836df62177bba3ecc92f880b000f8df3289132f8dda567090
+HCC-F03,Actinomyces,,not_retained,1,0,"{""decreased_in_hcc"":0,""increased_in_hcc"":1}",be83edd85173b80836df62177bba3ecc92f880b000f8df3289132f8dda567090
+HCC-F03,Alloprevotella,,not_retained,1,0,"{""decreased_in_hcc"":1,""increased_in_hcc"":0}",be83edd85173b80836df62177bba3ecc92f880b000f8df3289132f8dda567090
+HCC-F03,Anaerostipes,,not_retained,1,0,"{""decreased_in_hcc"":1,""increased_in_hcc"":0}",be83edd85173b80836df62177bba3ecc92f880b000f8df3289132f8dda567090
+HCC-F03,Anaerotruncus,,not_retained,2,0,"{""decreased_in_hcc"":1,""increased_in_hcc"":1}",be83edd85173b80836df62177bba3ecc92f880b000f8df3289132f8dda567090
+HCC-F03,Atopobium,,not_retained,1,0,"{""decreased_in_hcc"":0,""increased_in_hcc"":1}",be83edd85173b80836df62177bba3ecc92f880b000f8df3289132f8dda567090
+HCC-F03,Blautia,,not_retained,1,0,"{""decreased_in_hcc"":0,""increased_in_hcc"":1}",be83edd85173b80836df62177bba3ecc92f880b000f8df3289132f8dda567090
+HCC-F03,Butyricimonas,,not_retained,1,0,"{""decreased_in_hcc"":1,""increased_in_hcc"":0}",be83edd85173b80836df62177bba3ecc92f880b000f8df3289132f8dda567090
+HCC-F03,Cetobacterium,,not_retained,1,0,"{""decreased_in_hcc"":1,""increased_in_hcc"":0}",be83edd85173b80836df62177bba3ecc92f880b000f8df3289132f8dda567090
+HCC-F03,Cloacibacillus,,not_retained,1,0,"{""decreased_in_hcc"":1,""increased_in_hcc"":0}",be83edd85173b80836df62177bba3ecc92f880b000f8df3289132f8dda567090
+HCC-F03,Clostridium XIVa,,not_retained,1,0,"{""decreased_in_hcc"":1,""increased_in_hcc"":0}",be83edd85173b80836df62177bba3ecc92f880b000f8df3289132f8dda567090
+HCC-F03,Coprobacillus,,not_retained,1,0,"{""decreased_in_hcc"":1,""increased_in_hcc"":0}",be83edd85173b80836df62177bba3ecc92f880b000f8df3289132f8dda567090
+HCC-F03,Desulfococcus,,not_retained,1,0,"{""decreased_in_hcc"":0,""increased_in_hcc"":1}",be83edd85173b80836df62177bba3ecc92f880b000f8df3289132f8dda567090
+HCC-F03,Enterobacter,,not_retained,1,0,"{""decreased_in_hcc"":0,""increased_in_hcc"":1}",be83edd85173b80836df62177bba3ecc92f880b000f8df3289132f8dda567090
+HCC-F03,Enterococcus,,not_retained,1,0,"{""decreased_in_hcc"":0,""increased_in_hcc"":1}",be83edd85173b80836df62177bba3ecc92f880b000f8df3289132f8dda567090
+HCC-F03,Eubacterium,,not_retained,1,0,"{""decreased_in_hcc"":0,""increased_in_hcc"":1}",be83edd85173b80836df62177bba3ecc92f880b000f8df3289132f8dda567090
+HCC-F03,Eubacterium ventriosum group,,not_retained,1,0,"{""decreased_in_hcc"":1,""increased_in_hcc"":0}",be83edd85173b80836df62177bba3ecc92f880b000f8df3289132f8dda567090
+HCC-F03,Fusobacterium,,not_retained,1,0,"{""decreased_in_hcc"":1,""increased_in_hcc"":0}",be83edd85173b80836df62177bba3ecc92f880b000f8df3289132f8dda567090
+HCC-F03,Gemmiger,,not_retained,1,0,"{""decreased_in_hcc"":0,""increased_in_hcc"":1}",be83edd85173b80836df62177bba3ecc92f880b000f8df3289132f8dda567090
+HCC-F03,Haemophilus,,not_retained,1,0,"{""decreased_in_hcc"":0,""increased_in_hcc"":1}",be83edd85173b80836df62177bba3ecc92f880b000f8df3289132f8dda567090
+HCC-F03,Holdemania,,not_retained,1,0,"{""decreased_in_hcc"":1,""increased_in_hcc"":0}",be83edd85173b80836df62177bba3ecc92f880b000f8df3289132f8dda567090
+HCC-F03,Lachnospira,,not_retained,1,0,"{""decreased_in_hcc"":1,""increased_in_hcc"":0}",be83edd85173b80836df62177bba3ecc92f880b000f8df3289132f8dda567090
+HCC-F03,Lachnospiraceae UCG-001,,not_retained,1,0,"{""decreased_in_hcc"":1,""increased_in_hcc"":0}",be83edd85173b80836df62177bba3ecc92f880b000f8df3289132f8dda567090
+HCC-F03,Lactobacillus,,not_retained,1,0,"{""decreased_in_hcc"":0,""increased_in_hcc"":1}",be83edd85173b80836df62177bba3ecc92f880b000f8df3289132f8dda567090
+HCC-F03,Lactococcus,,not_retained,1,0,"{""decreased_in_hcc"":0,""increased_in_hcc"":1}",be83edd85173b80836df62177bba3ecc92f880b000f8df3289132f8dda567090
+HCC-F03,Leptotrichia,,not_retained,1,0,"{""decreased_in_hcc"":0,""increased_in_hcc"":1}",be83edd85173b80836df62177bba3ecc92f880b000f8df3289132f8dda567090
+HCC-F03,Megamonas,,not_retained,1,0,"{""decreased_in_hcc"":1,""increased_in_hcc"":0}",be83edd85173b80836df62177bba3ecc92f880b000f8df3289132f8dda567090
+HCC-F03,Methanobrevibacter,,not_retained,1,0,"{""decreased_in_hcc"":1,""increased_in_hcc"":0}",be83edd85173b80836df62177bba3ecc92f880b000f8df3289132f8dda567090
+HCC-F03,Neisseria,,not_retained,1,0,"{""decreased_in_hcc"":0,""increased_in_hcc"":1}",be83edd85173b80836df62177bba3ecc92f880b000f8df3289132f8dda567090
+HCC-F03,Odoribacter,,not_retained,1,0,"{""decreased_in_hcc"":1,""increased_in_hcc"":0}",be83edd85173b80836df62177bba3ecc92f880b000f8df3289132f8dda567090
+HCC-F03,Oribacterium,,not_retained,1,0,"{""decreased_in_hcc"":0,""increased_in_hcc"":1}",be83edd85173b80836df62177bba3ecc92f880b000f8df3289132f8dda567090
+HCC-F03,Paraprevotella,,not_retained,1,0,"{""decreased_in_hcc"":0,""increased_in_hcc"":1}",be83edd85173b80836df62177bba3ecc92f880b000f8df3289132f8dda567090
+HCC-F03,Phascolarctobacterium,,not_retained,1,0,"{""decreased_in_hcc"":0,""increased_in_hcc"":1}",be83edd85173b80836df62177bba3ecc92f880b000f8df3289132f8dda567090
+HCC-F03,Prevotella,increased_in_hcc,retained,2,0,"{""decreased_in_hcc"":0,""increased_in_hcc"":2}",be83edd85173b80836df62177bba3ecc92f880b000f8df3289132f8dda567090
+HCC-F03,Pyramidobacter,,not_retained,1,0,"{""decreased_in_hcc"":1,""increased_in_hcc"":0}",be83edd85173b80836df62177bba3ecc92f880b000f8df3289132f8dda567090
+HCC-F03,Raoultella,,not_retained,1,0,"{""decreased_in_hcc"":1,""increased_in_hcc"":0}",be83edd85173b80836df62177bba3ecc92f880b000f8df3289132f8dda567090
+HCC-F03,Rothia,,not_retained,1,0,"{""decreased_in_hcc"":0,""increased_in_hcc"":1}",be83edd85173b80836df62177bba3ecc92f880b000f8df3289132f8dda567090
+HCC-F03,Ruminococcus 2,,not_retained,1,0,"{""decreased_in_hcc"":1,""increased_in_hcc"":0}",be83edd85173b80836df62177bba3ecc92f880b000f8df3289132f8dda567090
+HCC-F03,Selenomonas,,not_retained,1,0,"{""decreased_in_hcc"":0,""increased_in_hcc"":1}",be83edd85173b80836df62177bba3ecc92f880b000f8df3289132f8dda567090
+HCC-F03,Streptococcus,,not_retained,1,0,"{""decreased_in_hcc"":0,""increased_in_hcc"":1}",be83edd85173b80836df62177bba3ecc92f880b000f8df3289132f8dda567090
+HCC-F03,Turicibacter,,not_retained,1,0,"{""decreased_in_hcc"":1,""increased_in_hcc"":0}",be83edd85173b80836df62177bba3ecc92f880b000f8df3289132f8dda567090
+HCC-F03,Veillonella,,not_retained,1,0,"{""decreased_in_hcc"":0,""increased_in_hcc"":1}",be83edd85173b80836df62177bba3ecc92f880b000f8df3289132f8dda567090

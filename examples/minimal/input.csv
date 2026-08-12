@@ -1,0 +1,10 @@
+record_id,report_id,family_id,family_state,comparison_id,evidence_tier,source_taxon,source_rank,harmonized_taxon,harmonized_rank,target_taxon,mapping_state,direction,lineage_component,eligibility,source_location
+R001,P001,F001,cohort_family,case_vs_control,primary,Taxon_A,genus,Taxon_A,genus,Taxon_A,exact,increased,Taxon_A,eligible,example:P001:table1
+R002,P001,F001,cohort_family,case_vs_control,primary,Taxon_A_species,species,Taxon_A_species,species,Taxon_A,rank_folded,increased,Taxon_A,eligible,example:P001:table1
+R003,P002,F002,cohort_family,case_vs_control,primary,Taxon_A,genus,Taxon_A,genus,Taxon_A,exact,increased,Taxon_A,eligible,example:P002:figure2
+R004,P001,F001,cohort_family,case_vs_control,primary,Taxon_B,genus,Taxon_B,genus,Taxon_B,exact,increased,Taxon_B,eligible,example:P001:table1
+R005,P002,F002,cohort_family,case_vs_control,primary,Taxon_B,genus,Taxon_B,genus,Taxon_B,exact,decreased,Taxon_B,eligible,example:P002:figure2
+R006,P003,F003,cohort_family,case_vs_control,primary,Taxon_C,genus,Taxon_C,genus,Taxon_C,exact,increased,Taxon_C,eligible,example:P003:table3
+R007,P003,F003,cohort_family,case_vs_control,primary,Taxon_C,genus,Taxon_C,genus,Taxon_C,exact,decreased,Taxon_C,eligible,example:P003:table3
+R008,P004,,indeterminate,case_vs_control,primary,Taxon_D,genus,Taxon_D,genus,Taxon_D,exact,increased,Taxon_D,eligible,example:P004:supplement
+R009,P002,F002,cohort_family,secondary_comparator,secondary,Taxon_A,genus,Taxon_A,genus,Taxon_A,exact,decreased,Taxon_A,eligible,example:P002:secondary

@@ -1,0 +1,17 @@
+scenario_id,replicates,full_plain_differences,full_separate_differences
+ambiguous_taxonomy,100,0,0
+case_control_imbalance,100,0,0
+combined_stress,100,0,0
+comparator_leakage,100,0,0
+duplicate_nested_reports,100,0,0
+high_zero_inflation,100,0,0
+incorrect_family_merge,100,0,0
+incorrect_family_split,100,0,0
+large_scale,20,0,0
+missing_family_metadata,100,0,0
+multiple_primary_comparisons,100,0,98
+rank_inflation,100,0,0
+reference,100,0,0
+selective_sparse_reporting,100,0,0
+too_few_families,100,0,0
+weak_effect_high_heterogeneity,100,0,0

@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:provfold:schema:input:1.0",
+  "title": "ProvFold evidence record",
+  "type": "object",
+  "required": [
+    "record_id",
+    "report_id",
+    "family_id",
+    "family_state",
+    "comparison_id",
+    "evidence_tier",
+    "source_taxon",
+    "source_rank",
+    "harmonized_taxon",
+    "harmonized_rank",
+    "target_taxon",
+    "mapping_state",
+    "direction",
+    "eligibility",
+    "source_location"
+  ],
+  "properties": {
+    "record_id": {"type": "string"},
+    "report_id": {"type": "string"},
+    "family_id": {"type": "string"},
+    "family_state": {"type": "string"},
+    "comparison_id": {"type": "string"},
+    "evidence_tier": {"type": "string"},
+    "source_taxon": {"type": "string"},
+    "source_rank": {"type": "string"},
+    "harmonized_taxon": {"type": "string"},
+    "harmonized_rank": {"type": "string"},
+    "target_taxon": {"type": "string"},
+    "mapping_state": {"type": "string"},
+    "direction": {"type": "string"},
+    "lineage_component": {"type": "string", "description": "Optional audit identifier for related source records; it does not define a vote."},
+    "eligibility": {"type": "string"},
+    "source_location": {"type": "string"}
+  },
+  "additionalProperties": true
+}

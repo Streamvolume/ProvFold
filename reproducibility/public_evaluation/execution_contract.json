@@ -1,0 +1,145 @@
+{
+  "arms": {
+    "disbiome": {
+      "family_unit": "indeterminate_at_experiment_level",
+      "outputs": [
+        "experiment_level_family_determinability_rate",
+        "publication_level_accession_presence",
+        "abstention_count_and_rate"
+      ],
+      "quantitative_recurrence_allowed": false,
+      "strict_association_rows": 5011,
+      "strict_publications": 547
+    },
+    "gutmdisorder_literature": {
+      "distinct_publication_count": 52,
+      "eligible_disease_ids": [
+        "D003093",
+        "D003424",
+        "D003922",
+        "D003924",
+        "D004485",
+        "D009103",
+        "D009765",
+        "D010300",
+        "D015179",
+        "D015209",
+        "D043183",
+        "D065626"
+      ],
+      "family_unit": "publication_family_not_cohort_family",
+      "quantitative_comparison_count": 60,
+      "unresolved_identifier_action": "retain_as_label_specific_abstention_audit_not_a_thirteenth_disease",
+      "unresolved_identifier_comparison_count": 16,
+      "unresolved_identifier_genus_direction_row_count": 57,
+      "unresolved_identifier_publication_count": 14
+    },
+    "gutmdisorder_rawdata": {
+      "comparison_count": 18,
+      "distinct_project_count_across_diseases": 16,
+      "eligible_disease_ids": [
+        "D003093",
+        "D003324",
+        "D003424",
+        "D010300",
+        "D015179"
+      ],
+      "family_unit": "BioProject_resolved_project_family",
+      "report_id_semantics": "Projectnumber_used_as_declared_source_document_because_the_export_has_no_publication_field"
+    }
+  },
+  "cross_arm_concordance": {
+    "Jaccard_surface": "selected_genus_direction_pairs_at_settings_valid_in_both_arms",
+    "conflict_states_in_balance": "excluded_from_denominator_and_reported_separately",
+    "interpretation": "descriptive_cross_provenance_concordance_not_biological_validation",
+    "overlap_disease_ids": [
+      "D003093",
+      "D003424",
+      "D010300",
+      "D015179"
+    ],
+    "pooling": "prohibited",
+    "threshold_free_direction_balance": "(increased_family_states-decreased_family_states)/(increased_family_states+decreased_family_states)",
+    "zero_balance": "excluded_from_sign_agreement_denominator"
+  },
+  "disease_evaluability": {
+    "below_minimum_action": "report_non_evaluable_without_lowering_threshold",
+    "minimum_distinct_declared_units_with_at_least_one_voting_record": 3
+  },
+  "family_omission": {
+    "if_remaining_units_below_3": "mark_non_evaluable_after_omission_and_do_not_count_as_survival_evidence",
+    "run_every_evaluable_declared_unit": true
+  },
+  "frozen_date": "2026-08-11",
+  "method_semantics_note": "In the rawdata arm the unique_publication software label operates on Projectnumber because the source has no PMID; it must be reported as a project-keyed source-document control and not as publication counting.",
+  "methods": [
+    "source_row",
+    "unique_publication",
+    "family_without_comparison_taxonomy",
+    "source_era_taxon",
+    "provenance_rank_folded"
+  ],
+  "primary_display_point": {
+    "maximum_opposition": 0,
+    "minimum_support": 2,
+    "status": "exploratory_continuity_point"
+  },
+  "prohibited_claims": [
+    "biological_generality",
+    "cohort_independence_of_publication_families",
+    "uniform_method_superiority",
+    "validation_of_the_AH_rule",
+    "pooled_three_arm_effect"
+  ],
+  "rank_folding_contrast": {
+    "modes": [
+      "direct_genus_only",
+      "genus_plus_NCBI_resolved_lower_rank"
+    ],
+    "primary_outputs": [
+      "voting_row_count",
+      "evidence_unit_count",
+      "family_taxon_state_count",
+      "selected_pair_count",
+      "added_removed_pairs",
+      "Jaccard"
+    ],
+    "surface_comparison": "all_support_opposition_settings_valid_in_both_modes"
+  },
+  "schema_version": "1.0",
+  "software_version": "0.1.0",
+  "source_identities": {
+    "disbiome_accession_sha256": "51e6282fdd58e23af8c767785735060c5fc85a9682e0c692cfbbcff44cbf7e4b",
+    "disbiome_experiment_sha256": "e3a0609572cd366a9cb40cf185103b9a85473bc9e5fb7e3e539e87e30577ee11",
+    "literature_xlsx_sha256": "8120e4b0b5b8bbdb384f374eceffb71b8ece112712a487af7a42302f2174dbb4",
+    "rawdata_xlsx_sha256": "a19bc2bd3c0b8f912fb94d4fbcc0a239a3623b345c470b1e83d2298a819d0b3c",
+    "taxonomy_mapping_sha256": "7a7f3352e0bfb483fb57cb2c64688f75853d49fe3d340164268922dfb239991a",
+    "taxonomy_query_sha256": "dfa60e9dc3949386f20274f53dce53d87f756fa216fb20ddbb226b290f29a8bf"
+  },
+  "status": "registered pre-result execution contract",
+  "storage": {
+    "official_source_exports": "retrieve separately and verify against the recorded identities",
+    "raw_redistribution": "not authorised",
+    "redistributed_materials": "derived summaries, executable reconstruction scripts and registered controls only"
+  },
+  "taxonomy_mapping": {
+    "direct_genus_requires_source_rank_genus_and_NCBI_returned_rank_genus": true,
+    "family_and_higher_source_ranks": "non_voting_abstention",
+    "invalid_missing_no_rank_or_rank_mismatch": "non_voting_abstention",
+    "lower_rank_folding_allows": [
+      "species",
+      "subspecies",
+      "strain"
+    ],
+    "lower_rank_folding_requires_NCBI_genus_lineage": true,
+    "name_similarity_mapping": "prohibited",
+    "source_rank_labels_immutable": true,
+    "within_family_comparison_same_lineage_rows": "collapse_to_one_vote",
+    "within_family_cross_comparison_opposite_directions": "family_conflict_abstain"
+  },
+  "threshold_surface": {
+    "maximum_opposition": "all_integers_0_through_arm_disease_evaluable_unit_count_minus_1",
+    "minimum_support": "all_integers_1_through_arm_disease_evaluable_unit_count",
+    "report_all_settings": true
+  }
+}

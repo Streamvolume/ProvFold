@@ -1,0 +1,42 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated article and this software version."
+title: "ProvFold"
+type: software
+version: 0.1.0
+date-released: 2026-08-13
+doi: 10.5281/zenodo.21909226
+url: "https://github.com/Streamvolume/ProvFold"
+repository-code: "https://github.com/Streamvolume/ProvFold"
+license: MIT
+authors:
+  - family-names: Yang
+    given-names: Wenxuan
+    orcid: "https://orcid.org/0009-0005-2567-5746"
+  - family-names: Sun
+    given-names: Zhaodong
+  - family-names: Dong
+    given-names: Wenhua
+  - family-names: Chi
+    given-names: Jiameng
+  - family-names: Lu
+    given-names: Yuqing
+  - family-names: Zeng
+    given-names: Yunhua
+  - family-names: Shi
+    given-names: Xinlan
+  - family-names: Xu
+    given-names: Zhenyan
+  - family-names: Tan
+    given-names: Chenle
+  - family-names: He
+    given-names: Wen
+  - family-names: Hu
+    given-names: Po
+  - family-names: Yang
+    given-names: Guangming
+  - family-names: Pan
+    given-names: Yang
+  - family-names: Wang
+    given-names: Xinzhu
+  - family-names: Tang
+    given-names: Huijuan

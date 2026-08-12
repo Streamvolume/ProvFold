@@ -1,0 +1,17 @@
+taxon,direction,supporting_provenance_group_count,supporting_provenance_groups,supporting_group_comparison_unit_count,supporting_group_comparison_units,single_group_only
+Acidaminococcus,decreased_in_hcc,1,HCC-F02,2,HCC-F02|primary_hcc_stage_i_vs_healthy;HCC-F02|primary_hcc_stage_iii_vs_healthy,True
+Actinomyces,increased_in_hcc,1,HCC-F02,2,HCC-F02|primary_hcc_stage_i_vs_healthy;HCC-F02|primary_hcc_stage_iii_vs_healthy,True
+Atopobium,increased_in_hcc,1,HCC-F02,2,HCC-F02|primary_hcc_stage_i_vs_healthy;HCC-F02|primary_hcc_stage_iii_vs_healthy,True
+Blautia,increased_in_hcc,2,HCC-F01;HCC-F03,2,HCC-F01|hbv_hcc_vs_healthy;HCC-F03|four_group_hcc_signature,False
+Cetobacterium,decreased_in_hcc,1,HCC-F02,3,HCC-F02|primary_hcc_stage_i_vs_healthy;HCC-F02|primary_hcc_stage_ii_vs_healthy;HCC-F02|primary_hcc_stage_iii_vs_healthy,True
+Coprobacillus,decreased_in_hcc,1,HCC-F02,2,HCC-F02|primary_hcc_stage_i_vs_healthy;HCC-F02|primary_hcc_stage_iii_vs_healthy,True
+Desulfococcus,increased_in_hcc,1,HCC-F02,3,HCC-F02|primary_hcc_stage_i_vs_healthy;HCC-F02|primary_hcc_stage_ii_vs_healthy;HCC-F02|primary_hcc_stage_iii_vs_healthy,True
+Enterobacter,increased_in_hcc,1,HCC-F02,3,HCC-F02|primary_hcc_stage_i_vs_healthy;HCC-F02|primary_hcc_stage_ii_vs_healthy;HCC-F02|primary_hcc_stage_iii_vs_healthy,True
+Lactobacillus,increased_in_hcc,1,HCC-F01,2,HCC-F01|hbv_hcc_vs_healthy;HCC-F01|non_hbv_hcc_vs_healthy,True
+Lactococcus,increased_in_hcc,1,HCC-F02,2,HCC-F02|primary_hcc_stage_ii_vs_healthy;HCC-F02|primary_hcc_stage_iii_vs_healthy,True
+Leptotrichia,increased_in_hcc,1,HCC-F02,2,HCC-F02|primary_hcc_stage_ii_vs_healthy;HCC-F02|primary_hcc_stage_iii_vs_healthy,True
+Paraprevotella,increased_in_hcc,1,HCC-F02,2,HCC-F02|primary_hcc_stage_i_vs_healthy;HCC-F02|primary_hcc_stage_ii_vs_healthy,True
+Prevotella,increased_in_hcc,2,HCC-F01;HCC-F02,4,HCC-F01|hbv_hcc_vs_healthy;HCC-F02|primary_hcc_stage_i_vs_healthy;HCC-F02|primary_hcc_stage_ii_vs_healthy;HCC-F02|primary_hcc_stage_iii_vs_healthy,False
+Pyramidobacter,decreased_in_hcc,1,HCC-F02,2,HCC-F02|primary_hcc_stage_i_vs_healthy;HCC-F02|primary_hcc_stage_iii_vs_healthy,True
+Turicibacter,decreased_in_hcc,1,HCC-F02,2,HCC-F02|primary_hcc_stage_i_vs_healthy;HCC-F02|primary_hcc_stage_iii_vs_healthy,True
+Veillonella,increased_in_hcc,1,HCC-F02,3,HCC-F02|primary_hcc_stage_i_vs_healthy;HCC-F02|primary_hcc_stage_ii_vs_healthy;HCC-F02|primary_hcc_stage_iii_vs_healthy,True

@@ -1,0 +1,364 @@
+{
+  "aggregation_config": {
+    "analysis_id": "provfold_independent_benchmark",
+    "comparator_scope": "primary",
+    "conflict_policy": "abstain",
+    "direction_states": [
+      "increased",
+      "decreased"
+    ],
+    "eligible_family_states": [
+      "cohort_family"
+    ],
+    "eligible_mapping_states": [
+      "exact",
+      "rank_folded"
+    ],
+    "eligible_record_states": [
+      "eligible"
+    ],
+    "maximum_opposition": 0,
+    "minimum_support": 2,
+    "primary_comparisons": [
+      "case_vs_control"
+    ],
+    "primary_evidence_tiers": [
+      "primary"
+    ],
+    "schema_version": "1.0",
+    "target_rank": "genus"
+  },
+  "amendment_history": [
+    {
+      "changes": [
+        "Add one rank-replacement scenario with an explicit target-rank lineage.",
+        "Add one rank-replacement scenario without a usable lineage, producing an explicit non-voting mapping state.",
+        "Retain the earlier append-style perturbation under the more precise name ancestor-descendant duplication stress."
+      ],
+      "date": "2026-08-12",
+      "type": "rank_replacement_stress_extension",
+      "unchanged": [
+        "all 16 existing scenario definitions and seed indices",
+        "latent truth and participant-level generation",
+        "aggregation rules and performance metrics",
+        "no-replicate-exclusion rule"
+      ]
+    },
+    {
+      "changes": [
+        "Report the 18 configured cells as 10 distinct estimators with explicit equivalence classes.",
+        "Generate unique synthetic report-specific lower-rank labels so that the taxonomy stress fragments rather than invents cross-family support.",
+        "Treat comparator_leakage as a scope-filter regression because secondary-tier rows are intentionally excluded from every scope-matched estimator.",
+        "Represent empty-set precision and false-discovery proportion as undefined and count undefined replicates in summaries.",
+        "Add threshold calibration from the existing simulated records without changing latent truth or participant observations."
+      ],
+      "date": "2026-08-12",
+      "type": "post_peer_review_attribution_and_metric_correction",
+      "unchanged": [
+        "latent-state definition",
+        "scenario parameters",
+        "seed formula",
+        "family-effect and participant-level generation",
+        "no-replicate-exclusion rule"
+      ]
+    },
+    {
+      "changes": [
+        "Expose all eligible comparison strata to the four naive comparators while the provenance-aware method continues to use configured primary comparisons and evidence tiers.",
+        "Calculate specificity and false recurrent-signal rate over the complete taxon-by-direction state space.",
+        "Remove direction accuracy among exact true positives."
+      ],
+      "date": "2026-08-12",
+      "type": "implementation_and_metric_correction",
+      "unchanged": [
+        "latent-state generator",
+        "scenario parameters",
+        "seed schedule",
+        "support and opposition thresholds",
+        "truth, family-effect and record-stream definitions",
+        "co-primary F1 definition",
+        "headline comparison set"
+      ]
+    },
+    {
+      "changes": [
+        "Replace the headline five-rule benchmark with a scope-matched 3 x 2 x 3 factorial ablation over voting unit, taxon key and comparison handling.",
+        "Restrict every headline method to the same primary comparisons and primary evidence tiers.",
+        "Add a structural multi-primary-comparison scenario with three panels per family.",
+        "Use binomial-shaped synthetic lower-rank labels and report out-of-truth selections separately.",
+        "Calculate false recurrent-signal rate only on the shared truth taxon-by-direction space and report precision and false-discovery proportion as primary user-facing quantities."
+      ],
+      "date": "2026-08-12",
+      "type": "independent_peer_review_attribution_correction",
+      "unchanged": [
+        "latent truth definition",
+        "seed formula",
+        "support and opposition thresholds",
+        "existing scenario parameters",
+        "family-effect and participant-level generation",
+        "no-replicate-exclusion rule"
+      ]
+    }
+  ],
+  "base_simulation": {
+    "ambiguous_taxonomy_probability": 0.05,
+    "between_family_sd": 0.3,
+    "comparator_leakage_probability": 0.15,
+    "detection_threshold": 0.25,
+    "direction_missing_probability": 0.03,
+    "effect_size": 0.8,
+    "family_merge_probability": 0.0,
+    "family_split_probability": 0.0,
+    "heterogeneous_fraction": 0.15,
+    "measurement_sd": 1.0,
+    "missing_family_probability": 0.0,
+    "n_families": 8,
+    "n_taxa": 60,
+    "nested_report_fraction": 0.7,
+    "nested_report_probability": 0.5,
+    "participants_case": 30,
+    "participants_control": 30,
+    "persistent_fraction": 0.2,
+    "primary_comparison_fraction": 1.0,
+    "primary_comparisons_per_family": 1,
+    "rank_inflation_probability": 0.3,
+    "rank_lineage_missing_probability": 0.0,
+    "rank_replacement_probability": 0.0,
+    "reports_per_family": 2,
+    "schema_version": "1.0",
+    "selective_reporting_probability": 0.8,
+    "sign_error_probability": 0.03,
+    "zero_inflation_probability": 0.1
+  },
+  "comparators": [
+    "vu_row__taxon_source_label__comparison_ignore",
+    "vu_row__taxon_source_label__comparison_separate_votes",
+    "vu_row__taxon_source_label__comparison_family_state",
+    "vu_row__taxon_resolved_target__comparison_ignore",
+    "vu_row__taxon_resolved_target__comparison_separate_votes",
+    "vu_row__taxon_resolved_target__comparison_family_state",
+    "vu_report__taxon_source_label__comparison_ignore",
+    "vu_report__taxon_source_label__comparison_separate_votes",
+    "vu_report__taxon_source_label__comparison_family_state",
+    "vu_report__taxon_resolved_target__comparison_ignore",
+    "vu_report__taxon_resolved_target__comparison_separate_votes",
+    "vu_report__taxon_resolved_target__comparison_family_state",
+    "vu_family__taxon_source_label__comparison_ignore",
+    "vu_family__taxon_source_label__comparison_separate_votes",
+    "vu_family__taxon_source_label__comparison_family_state",
+    "vu_family__taxon_resolved_target__comparison_ignore",
+    "vu_family__taxon_resolved_target__comparison_separate_votes",
+    "vu_family__taxon_resolved_target__comparison_family_state"
+  ],
+  "frozen_date": "2026-08-11",
+  "metrics": [
+    "precision",
+    "false_discovery_proportion",
+    "recall",
+    "specificity",
+    "f1",
+    "false_recurrent_signal_rate",
+    "false_positive_rate",
+    "heterogeneity_preservation_rate",
+    "abstention_rate",
+    "out_of_truth_selected_pair_count",
+    "runtime_seconds",
+    "peak_memory_mib"
+  ],
+  "scenarios": [
+    {
+      "overrides": {},
+      "replicates": 100,
+      "role": "reference",
+      "scenario_id": "reference"
+    },
+    {
+      "overrides": {
+        "nested_report_probability": 0.8,
+        "reports_per_family": 4
+      },
+      "replicates": 100,
+      "role": "duplication_stress",
+      "scenario_id": "duplicate_nested_reports"
+    },
+    {
+      "overrides": {
+        "participants_case": 18,
+        "participants_control": 54
+      },
+      "replicates": 100,
+      "role": "sampling_stress",
+      "scenario_id": "case_control_imbalance"
+    },
+    {
+      "overrides": {
+        "zero_inflation_probability": 0.6
+      },
+      "replicates": 100,
+      "role": "measurement_stress",
+      "scenario_id": "high_zero_inflation"
+    },
+    {
+      "overrides": {
+        "n_families": 2
+      },
+      "replicates": 100,
+      "role": "mandatory_failure_region",
+      "scenario_id": "too_few_families"
+    },
+    {
+      "overrides": {
+        "between_family_sd": 0.8,
+        "effect_size": 0.3
+      },
+      "replicates": 100,
+      "role": "mandatory_failure_region",
+      "scenario_id": "weak_effect_high_heterogeneity"
+    },
+    {
+      "overrides": {
+        "missing_family_probability": 0.65
+      },
+      "replicates": 100,
+      "role": "mandatory_failure_region",
+      "scenario_id": "missing_family_metadata"
+    },
+    {
+      "overrides": {
+        "detection_threshold": 0.6,
+        "selective_reporting_probability": 0.35
+      },
+      "replicates": 100,
+      "role": "mandatory_failure_region",
+      "scenario_id": "selective_sparse_reporting"
+    },
+    {
+      "overrides": {
+        "ambiguous_taxonomy_probability": 0.65
+      },
+      "replicates": 100,
+      "role": "mandatory_failure_region",
+      "scenario_id": "ambiguous_taxonomy"
+    },
+    {
+      "overrides": {
+        "family_merge_probability": 0.6
+      },
+      "replicates": 100,
+      "role": "mandatory_failure_region",
+      "scenario_id": "incorrect_family_merge"
+    },
+    {
+      "overrides": {
+        "family_split_probability": 0.8,
+        "reports_per_family": 3
+      },
+      "replicates": 100,
+      "role": "mandatory_failure_region",
+      "scenario_id": "incorrect_family_split"
+    },
+    {
+      "overrides": {
+        "rank_inflation_probability": 0.9
+      },
+      "replicates": 100,
+      "role": "taxonomy_stress",
+      "scenario_id": "rank_inflation"
+    },
+    {
+      "overrides": {
+        "comparator_leakage_probability": 0.8
+      },
+      "replicates": 100,
+      "role": "scope_filter_regression",
+      "scenario_id": "comparator_leakage"
+    },
+    {
+      "overrides": {
+        "primary_comparison_fraction": 0.7,
+        "primary_comparisons_per_family": 3
+      },
+      "replicates": 100,
+      "role": "comparison_structure_stress",
+      "scenario_id": "multiple_primary_comparisons"
+    },
+    {
+      "overrides": {
+        "ambiguous_taxonomy_probability": 0.35,
+        "between_family_sd": 0.6,
+        "comparator_leakage_probability": 0.45,
+        "direction_missing_probability": 0.25,
+        "effect_size": 0.5,
+        "family_split_probability": 0.35,
+        "missing_family_probability": 0.35,
+        "rank_inflation_probability": 0.7,
+        "reports_per_family": 3,
+        "selective_reporting_probability": 0.45,
+        "sign_error_probability": 0.15,
+        "zero_inflation_probability": 0.4
+      },
+      "replicates": 100,
+      "role": "mandatory_failure_region",
+      "scenario_id": "combined_stress"
+    },
+    {
+      "overrides": {
+        "n_families": 20,
+        "n_taxa": 250,
+        "participants_case": 40,
+        "participants_control": 40,
+        "reports_per_family": 3
+      },
+      "replicates": 20,
+      "role": "runtime_memory",
+      "scenario_id": "large_scale"
+    },
+    {
+      "overrides": {
+        "ambiguous_taxonomy_probability": 0.0,
+        "rank_inflation_probability": 0.0,
+        "rank_lineage_missing_probability": 0.0,
+        "rank_replacement_probability": 0.9
+      },
+      "replicates": 100,
+      "role": "taxonomy_replacement_stress",
+      "scenario_id": "rank_replacement_with_lineage"
+    },
+    {
+      "overrides": {
+        "ambiguous_taxonomy_probability": 0.0,
+        "rank_inflation_probability": 0.0,
+        "rank_lineage_missing_probability": 1.0,
+        "rank_replacement_probability": 0.9
+      },
+      "replicates": 100,
+      "role": "taxonomy_replacement_failure",
+      "scenario_id": "rank_replacement_without_lineage"
+    }
+  ],
+  "schema_version": "1.0",
+  "seed_schedule": {
+    "base_seed": 250811000,
+    "replicate_formula": "base_seed + scenario_index * scenario_stride + replicate_index",
+    "replicate_index_origin": 1,
+    "scenario_index_origin": 1,
+    "scenario_stride": 10000
+  },
+  "software": {
+    "name": "provfold",
+    "version": "0.1.0"
+  },
+  "status": "RELEASED_CONFIGURATION",
+  "stopping_rules": {
+    "excluded_replicates": "none; any exception fails the production run",
+    "failure_region_required": "at least one mandatory failure region must reduce provenance_rank_folded mean recall by at least 0.20 from reference or increase mean abstention by at least 0.20",
+    "uniform_optimality": "if provenance_rank_folded is no worse on F1 and false-recurrent-signal rate in every scenario, inspect the generator and metric definitions before accepting the result"
+  },
+  "summary_statistics": [
+    "mean",
+    "standard_deviation",
+    "median",
+    "p05",
+    "p95"
+  ]
+}

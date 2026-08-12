@@ -1,0 +1,7 @@
+Creative Commons Attribution 4.0 International
+
+The reproduction inputs and derived data tables distributed in this directory
+are licensed under CC BY 4.0. To view the licence, visit
+https://creativecommons.org/licenses/by/4.0/. Third-party source exports listed
+in public_evaluation/SOURCE_INPUTS.md are not redistributed and remain subject
+to their source terms.

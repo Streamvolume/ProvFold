@@ -1,0 +1,14 @@
+{
+  "fixed_support_2_selected_count": 16,
+  "fixed_support_2_single_group_selected_count": 14,
+  "group_comparison_unit_count": 6,
+  "normalised_minimum_support": 4,
+  "normalised_selected_count": 1,
+  "normalised_selected_pairs": [
+    "Prevotella|increased_in_hcc"
+  ],
+  "normalised_support_formula": "ceil((2/3) * total group-comparison units)",
+  "provenance_group_count": 3,
+  "record_count": 69,
+  "report_count": 4
+}

@@ -1,0 +1,11 @@
+report_id,source_item,source_rank_or_state,reason,status
+HCC-R01,"unstarred descriptive taxa in Figure 2A",genus,"No taxon-specific inferential marker in the frozen extraction block",excluded
+HCC-R01,"discussion statement about Lactobacillus and Bifidobacterium",discussion_only,"No directly linked genus-specific inferential result in the frozen block",excluded
+HCC-R02,"Moraxellaceae; Streptococcaceae; Lactobacillaceae; Enterococcaceae; Eubacteriaceae; Fusobacteriaceae; Veillonellaceae",family,"Higher than target rank; no downward mapping",excluded
+HCC-R02,"Pseudomonadales; Selenomonadales; Fusobacteriales",order,"Higher than target rank; no downward mapping",excluded
+HCC-R02,"Negativicutes; Fusobacteriia",class,"Higher than target rank; no downward mapping",excluded
+HCC-R02,Fusobacteria,phylum,"Higher than target rank; no downward mapping",excluded
+HCC-R03,Planctomycetes,ambiguous_higher_rank_label,"The source called it a genus but the label does not support a genus-level identity",excluded
+HCC-R03,"unidentified genera",unresolved,"No stable taxon label",excluded
+HCC-R04,"other four-group abundance differences",descriptive_or_non_HCC_specific,"Did not meet the frozen HCC-specific directional-result rule",excluded
+HCC-S05,"pooled HCC-versus-healthy meta-analysis directions",composite_report,"The report combines several public data families and cannot be assigned to one cohort family",excluded

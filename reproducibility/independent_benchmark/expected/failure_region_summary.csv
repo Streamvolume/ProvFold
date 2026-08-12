@@ -1,0 +1,9 @@
+scenario_id,recall_change_from_reference,abstention_change_from_reference,mandatory_failure_criterion_met
+ambiguous_taxonomy,-0.045,0.0785,False
+combined_stress,-0.57666666,0.15033334,True
+incorrect_family_merge,-0.01083333,0.09483334,False
+incorrect_family_split,-0.22,-0.002,True
+missing_family_metadata,-0.06083333,0.08583334,False
+selective_sparse_reporting,-0.10416666,0.40016667,True
+too_few_families,-0.21416666,0.1945,True
+weak_effect_high_heterogeneity,-0.74333333,-0.00283333,True

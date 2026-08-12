@@ -1,0 +1,6 @@
+{
+  "schema_version": "1.0",
+  "input": "input.csv",
+  "config": "config.json",
+  "operations": ["validate", "aggregate", "compare", "sensitivity", "omit-family"]
+}

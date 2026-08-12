@@ -1,0 +1,56 @@
+{
+  "arms_pooled": false,
+  "cross_arm_balance_row_count": 64,
+  "cross_arm_evaluable_disease_count": 3,
+  "cross_arm_jaccard_row_count": 41,
+  "cross_arm_predeclared_shared_disease_count": 4,
+  "date": "2026-08-12",
+  "disbiome": {
+    "arm": "disbiome",
+    "experiment_identifier_reuse_count": 0,
+    "experiment_level_explicit_family_rows": 0,
+    "experiment_level_family_determinability_rate": 0.0,
+    "family_indeterminate_abstention_rate": 1.0,
+    "family_indeterminate_abstention_rows": 5011,
+    "interpretation": "experiment_id_is_unique_per_association_row_and_does_not_define_a_repeated_experiment_family; publication_id_is_evaluated_separately_as_a_declared_proxy",
+    "publication_accession_presence_rate": 0.263254113345521,
+    "publications_with_any_accession": 144,
+    "quantitative_recurrence_rows": 0,
+    "strict_association_rows": 5011,
+    "strict_diseases": 191,
+    "strict_publications": 547,
+    "strict_taxa": 881,
+    "unique_experiment_identifiers": 5011
+  },
+  "disbiome_publication_family_sensitivity": {
+    "disease_count": 193,
+    "evaluable_disease_count": 62,
+    "interpretation": "bounded_publication_family_sensitivity_not_experiment_or_cohort_independence",
+    "non_evaluable_disease_count": 131,
+    "publication_family_count": 547,
+    "selected_pair_count_across_non_pooled_diseases": 310,
+    "strict_association_row_count": 5011
+  },
+  "evaluable_arm_disease_count": 16,
+  "independent_validation_error_count": 0,
+  "literature_quantitative_disease_count": 12,
+  "non_evaluable_arm_disease_count": 1,
+  "publication_families_called_cohort_families": false,
+  "quantitative_arm_disease_count": 17,
+  "rawdata_quantitative_disease_count": 5,
+  "schema_version": "1.0",
+  "status": "COMPLETE_INDEPENDENTLY_VALIDATED",
+  "taxonomy": {
+    "alias_resolved_count": 4,
+    "genus_lineage_available_count": 354,
+    "query_count": 503,
+    "resolved_count": 503
+  },
+  "unresolved_literature": {
+    "comparison_count": 16,
+    "directional_all_rank_row_count": 90,
+    "genus_direction_row_count": 57,
+    "publication_count": 14,
+    "quantitative_pool_count": 0
+  }
+}

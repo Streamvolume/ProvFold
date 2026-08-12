@@ -1,0 +1,82 @@
+{
+  "checks": [
+    {
+      "differences": {
+        "dl_ci_high": 0.0,
+        "dl_ci_low": 0.0,
+        "hk_ci_high": 3.1086244689504383e-15,
+        "hk_ci_low": 3.1086244689504383e-15,
+        "hk_p_value": 2.220446049250313e-16,
+        "hk_standard_error": 0.0,
+        "hk_unadjusted_ci_high": 3.1086244689504383e-15,
+        "hk_unadjusted_ci_low": 3.1086244689504383e-15,
+        "hk_unadjusted_standard_error": 0.0,
+        "pooled_smd": 0.0,
+        "tau2_dl": 0.0
+      },
+      "k": 5,
+      "maximum_absolute_difference": 3.1086244689504383e-15,
+      "outcome": "Shannon",
+      "status": "PASS"
+    },
+    {
+      "differences": {
+        "dl_ci_high": 0.0,
+        "dl_ci_low": 0.0,
+        "hk_ci_high": 1.8207657603852567e-14,
+        "hk_ci_low": 1.7763568394002505e-14,
+        "hk_p_value": 4.440892098500626e-16,
+        "hk_standard_error": 0.0,
+        "hk_unadjusted_ci_high": 1.5987211554602254e-14,
+        "hk_unadjusted_ci_low": 1.5987211554602254e-14,
+        "hk_unadjusted_standard_error": 0.0,
+        "pooled_smd": 0.0,
+        "tau2_dl": 0.0
+      },
+      "k": 2,
+      "maximum_absolute_difference": 1.8207657603852567e-14,
+      "outcome": "Observed OTUs/ACE",
+      "status": "PASS"
+    },
+    {
+      "differences": {
+        "dl_ci_high": 0.0,
+        "dl_ci_low": 0.0,
+        "hk_ci_high": 1.509903313490213e-14,
+        "hk_ci_low": 1.509903313490213e-14,
+        "hk_p_value": 6.661338147750939e-16,
+        "hk_standard_error": 0.0,
+        "hk_unadjusted_ci_high": 1.1546319456101628e-14,
+        "hk_unadjusted_ci_low": 1.1546319456101628e-14,
+        "hk_unadjusted_standard_error": 0.0,
+        "pooled_smd": 0.0,
+        "tau2_dl": 0.0
+      },
+      "k": 3,
+      "maximum_absolute_difference": 1.509903313490213e-14,
+      "outcome": "Chao1",
+      "status": "PASS"
+    },
+    {
+      "differences": {
+        "dl_ci_high": 0.0,
+        "dl_ci_low": 0.0,
+        "hk_ci_high": 2.842170943040401e-14,
+        "hk_ci_low": 2.7977620220553945e-14,
+        "hk_p_value": 6.661338147750939e-16,
+        "hk_standard_error": 0.0,
+        "hk_unadjusted_ci_high": 6.439293542825908e-15,
+        "hk_unadjusted_ci_low": 6.328271240363392e-15,
+        "hk_unadjusted_standard_error": 0.0,
+        "pooled_smd": 0.0,
+        "tau2_dl": 0.0
+      },
+      "k": 2,
+      "maximum_absolute_difference": 2.842170943040401e-14,
+      "outcome": "Simpson",
+      "status": "PASS"
+    }
+  ],
+  "implementation_independence": "Student t probabilities and critical values recomputed by numerical integration",
+  "status": "PASS"
+}

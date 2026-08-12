@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "analysis_id": "hcc_purposive_repeated_report_stress_test_v1",
+  "primary_comparisons": [
+    "non_hbv_hcc_vs_healthy",
+    "hbv_hcc_vs_healthy",
+    "primary_hcc_stage_i_vs_healthy",
+    "primary_hcc_stage_ii_vs_healthy",
+    "primary_hcc_stage_iii_vs_healthy",
+    "four_group_hcc_signature"
+  ],
+  "primary_evidence_tiers": ["direct_hcc_healthy"],
+  "direction_states": ["increased_in_hcc", "decreased_in_hcc"],
+  "eligible_family_states": ["cohort_family"],
+  "eligible_mapping_states": ["exact_genus_label"],
+  "eligible_record_states": ["eligible"],
+  "target_rank": "genus",
+  "minimum_support": 2,
+  "maximum_opposition": 0,
+  "conflict_policy": "abstain",
+  "comparator_scope": "primary"
+}

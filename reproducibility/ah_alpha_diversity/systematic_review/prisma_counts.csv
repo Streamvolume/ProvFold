@@ -1,0 +1,15 @@
+count_id,label,n,provenance_note
+identified,Records identified,1533,"PubMed, Embase and Web of Science"
+duplicates,Duplicate records removed,390,Before title/abstract screening
+screened,Records screened,1143,Title and abstract
+screen_excluded,Records excluded,951,Title and abstract
+sought,Reports sought for retrieval,192,Full text requested
+not_retrieved,Reports not retrieved,9,Full text unavailable
+assessed,Reports assessed for eligibility,183,Full text
+wrong_design,Wrong study design,78,Full-text exclusion
+wrong_population,Wrong population,42,Full-text exclusion
+wrong_outcome_method,Wrong outcome or method,28,Full-text exclusion
+data_unavailable,Required data unavailable,12,Full-text exclusion
+protocol_incongruent,Outcome/sample type outside eligibility,1,Yadav: plasma Scl1; no eligible human faecal 16S/metagenomic case-control outcome
+full_text_excluded,Full-text reports excluded,161,78 + 42 + 28 + 12 + 1
+included,Reports included in qualitative synthesis,22,24 comparison rows
