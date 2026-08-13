@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.1 — 2026-08-13
+
+- Corrected the attribution of the modified Knapp–Hartung variance safeguard.
+- Corrected the Zheng et al. article page range in the HCC provenance registry.
+- No analytical code, input values, estimates or scientific outputs changed.
+
 ## 0.1.0 — 2026-08-13
 
 - Added the generic schema, configuration model and deterministic aggregation API.

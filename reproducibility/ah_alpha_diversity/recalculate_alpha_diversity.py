@@ -148,7 +148,7 @@ def dl_hk(rows: list[dict[str, str]]) -> tuple[dict[str, float | int], list[floa
     hk_unadjusted_se = math.sqrt(hk_scale / weight_sum)
     hk_unadjusted_t = pooled / hk_unadjusted_se if hk_unadjusted_se else math.copysign(math.inf, pooled)
     hk_unadjusted_p = 2.0 * (1.0 - student_t_cdf(abs(hk_unadjusted_t), df))
-    # IntHout et al.'s ad-hoc safeguard prevents Hartung--Knapp variance
+    # The modified Knapp--Hartung safeguard prevents Hartung--Knapp variance
     # from shrinking below the conventional random-effects variance when
     # very small k and an unusually small Q produce q < 1.
     hk_se = max(hk_unadjusted_se, dl_se)
@@ -197,7 +197,7 @@ def model_row(model_id: str, outcome: str, role: str, rows: list[dict[str, str]]
         **result,
         "estimator": "inverse-variance DerSimonian-Laird random effects",
         "primary_inference": (
-            "Hartung-Knapp t interval and two-sided t test with the IntHout ad-hoc "
+            "Hartung-Knapp t interval and two-sided t test with the modified Knapp-Hartung "
             "variance safeguard (SE=max[SE_HK, SE_DL])"
         ),
         "compatibility_inference": "normal interval and two-sided normal test",
@@ -301,7 +301,7 @@ def main() -> None:
         "report_replacement_models": len(replacement_results),
         "method": (
             "DerSimonian-Laird tau-squared and point estimate; Hartung-Knapp t inference with "
-            "the IntHout ad-hoc variance safeguard SE=max(SE_HK, SE_DL)"
+            "the modified Knapp-Hartung variance safeguard SE=max(SE_HK, SE_DL)"
         ),
         "simpson_orientation": "higher values denote greater dominance and therefore lower diversity in the registered source metrics",
     }

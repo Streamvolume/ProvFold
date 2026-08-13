@@ -2,9 +2,9 @@ cff-version: 1.2.0
 message: "If you use this software, please cite the associated article and this software version."
 title: "ProvFold"
 type: software
-version: 0.1.0
+version: 0.1.1
 date-released: 2026-08-13
-doi: 10.5281/zenodo.21909226
+doi: 10.5281/zenodo.21915120
 url: "https://github.com/Streamvolume/ProvFold"
 repository-code: "https://github.com/Streamvolume/ProvFold"
 license: MIT

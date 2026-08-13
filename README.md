@@ -23,7 +23,7 @@ install it without consulting a package index:
 
 ```bash
 python -m pip wheel --no-build-isolation --no-deps . -w wheelhouse
-python -m pip install --no-index --find-links wheelhouse provfold==0.1.0
+python -m pip install --no-index --find-links wheelhouse provfold==0.1.1
 ```
 
 ## Minimal run
@@ -145,6 +145,6 @@ curation remain upstream analytical tasks.
 
 The software is licensed under the MIT licence. The accompanying
 reproducibility datasets are released under CC BY 4.0. Citation metadata are
-provided in `CITATION.cff`. Version 0.1.0 is archived at
-https://doi.org/10.5281/zenodo.21909226, and the continuing source repository is
+provided in `CITATION.cff`. Version 0.1.1 is archived at
+https://doi.org/10.5281/zenodo.21915120, and the continuing source repository is
 https://github.com/Streamvolume/ProvFold.

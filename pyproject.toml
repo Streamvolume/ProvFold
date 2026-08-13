@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "provfold"
-version = "0.1.0"
+version = "0.1.1"
 description = "Provenance-aware aggregation of heterogeneous taxon-direction evidence"
 readme = "README.md"
 requires-python = ">=3.11"
@@ -28,7 +28,7 @@ reproduction = ["openpyxl==3.1.5"]
 [project.urls]
 Homepage = "https://github.com/Streamvolume/ProvFold"
 Repository = "https://github.com/Streamvolume/ProvFold"
-Archive = "https://doi.org/10.5281/zenodo.21909226"
+Archive = "https://doi.org/10.5281/zenodo.21915120"
 
 [project.scripts]
 provfold = "provfold.cli:main"

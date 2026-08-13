@@ -346,7 +346,7 @@
   },
   "software": {
     "name": "provfold",
-    "version": "0.1.0"
+    "version": "0.1.1"
   },
   "status": "RELEASED_CONFIGURATION",
   "stopping_rules": {
