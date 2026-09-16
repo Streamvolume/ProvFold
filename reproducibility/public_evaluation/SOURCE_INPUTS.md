@@ -1,6 +1,6 @@
 # Public-resource inputs for ProvFold 0.1.2
 
-The analysis uses five source files with exact identities listed in `source_input_identities.csv` and enforced by `execution_contract.json`. The source collection date recorded in the supplied analysis materials is **11 August 2026**. This is an input acquisition date, not the date of a software execution or an AH literature search.
+The analysis uses five source files with exact identities listed in `source_input_identities.csv` and enforced by `execution_contract.json`. The authors confirm an input acquisition date of **13 August 2026** for all five files. This is an input acquisition date, not the date of a software execution or an AH literature search.
 
 The original database exports are kept outside the public distribution because affirmative permission to redistribute complete exports has not been established. Access from an official service does not itself grant redistribution rights. Users must obtain the identified files from the providers or another authorised source. The adapter fails rather than silently accepting different input bytes.
 

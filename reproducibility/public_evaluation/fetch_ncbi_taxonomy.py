@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import csv
+from datetime import datetime, timezone
 import hashlib
 import json
 import os
@@ -121,7 +122,9 @@ def main() -> None:
 
     manifest = {
         "schema_version": "1.0",
-        "retrieval_date": "2026-08-11",
+        "retrieval_date": datetime.now(timezone.utc).date().isoformat(),
+        "input_acquisition_date": "2026-08-13",
+        "input_acquisition_date_basis": "author-confirmed",
         "official_source": "NCBI Taxonomy EFetch",
         "endpoint": ENDPOINT,
         "query_count": len(taxids),

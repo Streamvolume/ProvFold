@@ -21,7 +21,7 @@ item,topic,checklist_requirement,reported_location,status_or_note
 14,Reporting-bias methods,Describe assessment of missing-result bias,AF1 S8.3,Funnel-plot asymmetry not assessed: fewer than 10 independent contributions per outcome
 15,Certainty methods,Describe certainty assessment,AF1 S8.2-S8.4; Main 4,No formal certainty framework applied; appraisal and interval limitations retained
 16a,Study selection,Report selection counts and flow,AF1 S8.1; Figure S1; Table S38,Complete recorded numerical flow supplied
-16b,Excluded studies,Cite exclusions and give reasons,AF1 S8.1; Tables S38 and S42,Partial: full-text exclusion categories and outcome non-entry are available; citation-level list of the 161 excluded full texts is not packaged
+16b,Excluded studies,Cite exclusions and give reasons,AF1 S8.1; Tables S38 and S42,Partial: exclusion categories and outcome non-entry are reported; the authors confirm that the citation-level list of 161 excluded full texts and their individual reasons was not recorded
 17,Study characteristics,Describe each included study,"Table S47; Tables S32, S36 and S39",One row for each of 22 included reports
 18,Risk-of-bias results,Give study-level appraisal results,AF1 S8.2; Tables S39-S40,All included reports and quantitative subset supplied
 19,Individual results,Give estimates and precision,Figure S2; Table S36,"Study-level SMDs, intervals, weights and sources supplied"
