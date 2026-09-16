@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Recalculate the cohort-deduplicated AH alpha-diversity branch.
 
-The script retains the historical DerSimonian--Laird point estimator for
+The script retains the DerSimonian--Laird point estimator for
 compatibility with the recovered RevMan analysis and adds Hartung--Knapp
 small-sample inference.  It also exports study-level random-effects weights,
 leave-one-cohort-out results and report-replacement sensitivity results.
@@ -13,6 +13,7 @@ No source graph is digitised by this program.
 from __future__ import annotations
 
 import csv
+import os
 import json
 import math
 from pathlib import Path
@@ -21,7 +22,7 @@ from typing import Iterable
 
 HERE = Path(__file__).resolve().parent
 SOURCE = HERE / "input.csv"
-OUTPUT = HERE / "generated_run"
+OUTPUT = Path(os.environ.get("PROVFOLD_ALPHA_OUTPUT", HERE / "generated_run")).resolve()
 
 OUTCOMES = ("Shannon", "Observed OTUs/ACE", "Chao1", "Simpson")
 DISPLAY_OUTCOME = {
@@ -246,7 +247,7 @@ def main() -> None:
                 "source_location": member["source_location"],
                 "numerical_provenance": (
                     "Group summaries were digitised from the cited source figure with WebPlotDigitizer 4.6 "
-                    "during the earlier registered review; this analysis imports the preserved full-precision "
+                    "for the registered review; this analysis uses the full-precision "
                     "SMD and standard error without a new digitisation pass."
                 ),
             })

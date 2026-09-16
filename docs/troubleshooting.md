@@ -20,4 +20,4 @@ Run `provfold validate --input input.csv --config config.json` before aggregatio
 
 If no signal is retained, inspect `family_taxon_states.csv`, the threshold surface and provenance-group omission output before changing a rule. A `not_retained` cell may reflect inadequate support, excess opposition or the strict `support > opposition` condition.
 
-Different factorial or legacy comparator counts are expected when rows, reports, families, comparison panels and taxon keys are not one-to-one. They are parallel sensitivity outputs, not sequential filtering stages or estimates of one biological quantity.
+Different factorial or five-rule comparator counts are expected when rows, reports, families, comparison panels and taxon keys are not one-to-one. They are parallel sensitivity outputs, not sequential filtering stages or estimates of one biological quantity.

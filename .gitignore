@@ -3,3 +3,9 @@ dist/
 *.egg-info/
 __pycache__/
 *.pyc
+
+results/
+**/generated_run/
+**/generated_figures/
+**/source_inputs/
+*.log

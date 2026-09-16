@@ -11,6 +11,8 @@ large_scale,20,0,0
 missing_family_metadata,100,0,0
 multiple_primary_comparisons,100,0,98
 rank_inflation,100,0,0
+rank_replacement_with_lineage,100,0,0
+rank_replacement_without_lineage,100,0,0
 reference,100,0,0
 selective_sparse_reporting,100,0,0
 too_few_families,100,0,0

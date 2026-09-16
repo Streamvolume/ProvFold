@@ -1,46 +1,46 @@
 database,line_number,query_as_recorded,records_as_recorded,publication_window,language_limits,execution_date_status
-PubMed,1,"""Hepatitis, Alcoholic"" OR ""Liver Diseases, Alcoholic""",9686,2015-01-01 to 2025-12-31,English or Chinese,exact historical execution date not retained
-PubMed,2,"""Alcoholic hepatitis"" OR ""Alcohol-associated hepatitis"" OR ""Alcohol-related hepatitis"" OR ""Alcoholic steatohepatitis"" OR ""Acute alcoholic hepatitis"" OR ""Severe alcoholic hepatitis""",11575,2015-01-01 to 2025-12-31,English or Chinese,exact historical execution date not retained
-PubMed,3,"(""Alcoholic"" OR ""Alcohol-associated"" OR ""Alcohol-related"") AND (""Liver failure"" OR ""Acute-on-chronic liver failure"" OR ""ACLF"" OR ""Steatohepatitis"")",16869,2015-01-01 to 2025-12-31,English or Chinese,exact historical execution date not retained
-PubMed,4,"""sAH"" OR ""AAH"" OR ""ASH""",56691,2015-01-01 to 2025-12-31,English or Chinese,exact historical execution date not retained
-PubMed,5,#1 OR #2 OR #3 OR #4,82972,2015-01-01 to 2025-12-31,English or Chinese,exact historical execution date not retained
-PubMed,6,"""Gastrointestinal Microbiome"" OR ""Dysbiosis"" OR ""Microbiota"" OR ""Feces""",299846,2015-01-01 to 2025-12-31,English or Chinese,exact historical execution date not retained
-PubMed,7,"""Gut microbiota"" OR ""Gut microbiome"" OR ""Gut flora"" OR ""Gastrointestinal microbiota"" OR ""Intestinal microbiota"" OR ""Intestinal microbiome"" OR ""Intestinal flora""",108591,2015-01-01 to 2025-12-31,English or Chinese,exact historical execution date not retained
-PubMed,8,"""Fecal microbiota"" OR ""Fecal microbiome"" OR ""Faecal microbiota"" OR ""Faecal microbiome"" OR ""Stool microbiota"" OR ""Stool microbiome""",16601,2015-01-01 to 2025-12-31,English or Chinese,exact historical execution date not retained
-PubMed,9,"""16S rRNA"" OR ""Metagenom*"" OR ""Shotgun sequencing"" OR ""Pyrosequencing"" OR ""Microbial community"" OR ""Bacterial translocation"" OR ""Gut-liver axis""",177095,2015-01-01 to 2025-12-31,English or Chinese,exact historical execution date not retained
-PubMed,10,#6 OR #7 OR #8 OR #9,424628,2015-01-01 to 2025-12-31,English or Chinese,exact historical execution date not retained
-PubMed,11,#5 AND #10,2494,2015-01-01 to 2025-12-31,English or Chinese,exact historical execution date not retained
-PubMed,12,"""Maddrey"" OR ""Discriminant function"" OR ""MELD"" OR ""Model for End-Stage Liver Disease"" OR ""Lille model"" OR ""Lille score"" OR ""ABIC score"" OR ""Glasgow alcoholic hepatitis score"" OR ""GAHS"" OR ""Severity"" OR ""Prognosis"" OR ""Mortality"" OR ""Survival"" OR ""Control*"" OR ""Healthy""",11056047,2015-01-01 to 2025-12-31,English or Chinese,exact historical execution date not retained
-PubMed,13,#11 AND #12,1185,2015-01-01 to 2025-12-31,English or Chinese,exact historical execution date not retained
-PubMed,14,"(""Animals"" NOT ""Humans"")",5401914,2015-01-01 to 2025-12-31,English or Chinese,exact historical execution date not retained
-PubMed,15,#13 NOT #14,778,2015-01-01 to 2025-12-31,English or Chinese,exact historical execution date not retained
-PubMed,16,#15 AND ((2015/1/1:2025/12/31[pdat]) AND (chinese[Filter] OR english[Filter])),685,2015-01-01 to 2025-12-31,English or Chinese,exact historical execution date not retained
-Embase,1,'alcoholic hepatitis'/exp OR 'alcoholic liver cirrhosis'/exp,21132,2015-01-01 to 2025-12-31,English or Chinese,exact historical execution date not retained
-Embase,2,"('alcohol' NEAR/3 'hepatitis'):ti,ab,kw",4189,2015-01-01 to 2025-12-31,English or Chinese,exact historical execution date not retained
-Embase,3,"'acute alcoholic hepatitis':ti,ab,kw OR 'severe alcoholic hepatitis':ti,ab,kw OR 'alcoholic steatohepatitis':ti,ab,kw OR 'sAH':ti,ab,kw OR 'AAH':ti,ab,kw",40493,2015-01-01 to 2025-12-31,English or Chinese,exact historical execution date not retained
-Embase,4,#1 OR #2 OR #3,61734,2015-01-01 to 2025-12-31,English or Chinese,exact historical execution date not retained
-Embase,5,'intestine flora'/exp OR 'feces microflora'/exp OR 'dysbiosis'/exp OR 'bacterial translocation'/exp,176049,2015-01-01 to 2025-12-31,English or Chinese,exact historical execution date not retained
-Embase,6,"('gut' NEAR/3 ('microbiota' OR 'microbiome' OR 'flora' OR 'bacteria')):ti,ab,kw",118865,2015-01-01 to 2025-12-31,English or Chinese,exact historical execution date not retained
-Embase,7,"('intestinal' NEAR/3 ('microbiota' OR 'microbiome' OR 'flora')):ti,ab,kw",40556,2015-01-01 to 2025-12-31,English or Chinese,exact historical execution date not retained
-Embase,8,"(('fecal' OR 'faecal' OR 'stool') NEAR/3 ('microbiota' OR 'microbiome' OR 'flora' OR 'sample')):ti,ab,kw",33215,2015-01-01 to 2025-12-31,English or Chinese,exact historical execution date not retained
-Embase,9,"'16S rRNA':ti,ab,kw OR 'metagenome':ti,ab,kw OR 'metagenomics':ti,ab,kw OR 'shotgun sequencing':ti,ab,kw",122483,2015-01-01 to 2025-12-31,English or Chinese,exact historical execution date not retained
-Embase,10,#5 OR #6 OR #7 OR #8 OR #9,306269,2015-01-01 to 2025-12-31,English or Chinese,exact historical execution date not retained
-Embase,11,"'maddrey':ti,ab,kw OR 'meld':ti,ab,kw OR 'model for end-stage liver disease':ti,ab,kw OR 'ubic':ti,ab,kw OR 'lille model':ti,ab,kw OR 'glasgow score':ti,ab,kw OR 'severity':ti,ab,kw OR 'mortality':ti,ab,kw OR 'survival':ti,ab,kw OR 'control':ti,ab,kw OR 'healthy':ti,ab,kw",9842668,2015-01-01 to 2025-12-31,English or Chinese,exact historical execution date not retained
-Embase,12,#4 AND #10 AND #11,796,2015-01-01 to 2025-12-31,English or Chinese,exact historical execution date not retained
-Embase,13,'conference abstract'/it OR 'conference review'/it,5900781,2015-01-01 to 2025-12-31,English or Chinese,exact historical execution date not retained
-Embase,14,#12 NOT #13,457,2015-01-01 to 2025-12-31,English or Chinese,exact historical execution date not retained
-Embase,15,('animal'/exp OR 'nonhuman'/exp) NOT 'human'/exp,8442975,2015-01-01 to 2025-12-31,English or Chinese,exact historical execution date not retained
-Embase,16,#14 NOT #15,365,2015-01-01 to 2025-12-31,English or Chinese,exact historical execution date not retained
-Embase,17,#16 AND [2015-2025]/py AND ([chinese]/lim OR [english]/lim),322,2015-01-01 to 2025-12-31,English or Chinese,exact historical execution date not retained
-Web of Science,1,"TS=(""Alcoholic hepatitis"" OR ""Alcohol-associated hepatitis"" OR ""Alcohol-related hepatitis"" OR ""Acute alcoholic hepatitis"" OR ""Severe alcoholic hepatitis"" OR ""Alcoholic steatohepatitis"" OR ""sAH"" OR ""AAH"")",25423,2015-01-01 to 2025-12-31,English or Chinese,exact historical execution date not retained
-Web of Science,2,"TS=((""Alcoholic liver disease"" OR ""ALD"") AND (""Acute"" OR ""Severe"" OR ""Failure"" OR ""Inflammation""))",3770,2015-01-01 to 2025-12-31,English or Chinese,exact historical execution date not retained
-Web of Science,3,#1 OR #2,28521,2015-01-01 to 2025-12-31,English or Chinese,exact historical execution date not retained
-Web of Science,4,"TS=(""Gut microbiota"" OR ""Gut microbiome"" OR ""Gut flora"" OR ""Intestinal microbiota"" OR ""Intestinal microbiome"" OR ""Intestinal flora"" OR ""Gastrointestinal microbiota"")",135369,2015-01-01 to 2025-12-31,English or Chinese,exact historical execution date not retained
-Web of Science,5,"TS=(""Fecal microbiota"" OR ""Fecal microbiome"" OR ""Faecal microbiota"" OR ""Faecal microbiome"" OR ""Stool microbiota"" OR ""Stool microbiome"")",20815,2015-01-01 to 2025-12-31,English or Chinese,exact historical execution date not retained
-Web of Science,6,"TS=(""Dysbiosis"" OR ""Bacterial translocation"" OR ""Gut-liver axis"" OR ""Microbial community"" OR ""16S rRNA"" OR ""Metagenom*"" OR ""Shotgun sequencing"")",224383,2015-01-01 to 2025-12-31,English or Chinese,exact historical execution date not retained
-Web of Science,7,#4 OR #5 OR #6,316849,2015-01-01 to 2025-12-31,English or Chinese,exact historical execution date not retained
-Web of Science,8,"TS=(""Maddrey"" OR ""Discriminant function"" OR ""MELD"" OR ""Model for End-Stage Liver Disease"" OR ""Lille model"" OR ""Lille score"" OR ""ABIC score"" OR ""Glasgow score"" OR ""GAHS"" OR ""Severity"" OR ""Mortality"" OR ""Survival"" OR ""Prognosis"" OR ""Healthy control*"" OR ""Non-alcoholic"")",3546369,2015-01-01 to 2025-12-31,English or Chinese,exact historical execution date not retained
-Web of Science,9,#3 AND #7 AND #8,735,2015-01-01 to 2025-12-31,English or Chinese,exact historical execution date not retained
-Web of Science,10,"TI=(""Mouse"" OR ""Mice"" OR ""Rat"" OR ""Rats"" OR ""Rodent"" OR ""Murine"" OR ""Animal"" OR ""Porcine"" OR ""Rabbit"" OR ""In vitro"" OR ""Cell culture"")",1512647,2015-01-01 to 2025-12-31,English or Chinese,exact historical execution date not retained
-Web of Science,11,#9 NOT #10,595,2015-01-01 to 2025-12-31,English or Chinese,exact historical execution date not retained
-Web of Science,12,#11 and 2015 or 2016 or 2025 or 2024 or 2022 or 2023 or 2021 or 2020 or 2019 or 2018 or 2017 (Publication Years) and English (Languages),526,2015-01-01 to 2025-12-31,English or Chinese,exact historical execution date not retained
+PubMed,1,"""Hepatitis, Alcoholic"" OR ""Liver Diseases, Alcoholic""",9686,2015-01-01 to 2025-12-31,English or Chinese,Exact execution date not documented
+PubMed,2,"""Alcoholic hepatitis"" OR ""Alcohol-associated hepatitis"" OR ""Alcohol-related hepatitis"" OR ""Alcoholic steatohepatitis"" OR ""Acute alcoholic hepatitis"" OR ""Severe alcoholic hepatitis""",11575,2015-01-01 to 2025-12-31,English or Chinese,Exact execution date not documented
+PubMed,3,"(""Alcoholic"" OR ""Alcohol-associated"" OR ""Alcohol-related"") AND (""Liver failure"" OR ""Acute-on-chronic liver failure"" OR ""ACLF"" OR ""Steatohepatitis"")",16869,2015-01-01 to 2025-12-31,English or Chinese,Exact execution date not documented
+PubMed,4,"""sAH"" OR ""AAH"" OR ""ASH""",56691,2015-01-01 to 2025-12-31,English or Chinese,Exact execution date not documented
+PubMed,5,#1 OR #2 OR #3 OR #4,82972,2015-01-01 to 2025-12-31,English or Chinese,Exact execution date not documented
+PubMed,6,"""Gastrointestinal Microbiome"" OR ""Dysbiosis"" OR ""Microbiota"" OR ""Feces""",299846,2015-01-01 to 2025-12-31,English or Chinese,Exact execution date not documented
+PubMed,7,"""Gut microbiota"" OR ""Gut microbiome"" OR ""Gut flora"" OR ""Gastrointestinal microbiota"" OR ""Intestinal microbiota"" OR ""Intestinal microbiome"" OR ""Intestinal flora""",108591,2015-01-01 to 2025-12-31,English or Chinese,Exact execution date not documented
+PubMed,8,"""Fecal microbiota"" OR ""Fecal microbiome"" OR ""Faecal microbiota"" OR ""Faecal microbiome"" OR ""Stool microbiota"" OR ""Stool microbiome""",16601,2015-01-01 to 2025-12-31,English or Chinese,Exact execution date not documented
+PubMed,9,"""16S rRNA"" OR ""Metagenom*"" OR ""Shotgun sequencing"" OR ""Pyrosequencing"" OR ""Microbial community"" OR ""Bacterial translocation"" OR ""Gut-liver axis""",177095,2015-01-01 to 2025-12-31,English or Chinese,Exact execution date not documented
+PubMed,10,#6 OR #7 OR #8 OR #9,424628,2015-01-01 to 2025-12-31,English or Chinese,Exact execution date not documented
+PubMed,11,#5 AND #10,2494,2015-01-01 to 2025-12-31,English or Chinese,Exact execution date not documented
+PubMed,12,"""Maddrey"" OR ""Discriminant function"" OR ""MELD"" OR ""Model for End-Stage Liver Disease"" OR ""Lille model"" OR ""Lille score"" OR ""ABIC score"" OR ""Glasgow alcoholic hepatitis score"" OR ""GAHS"" OR ""Severity"" OR ""Prognosis"" OR ""Mortality"" OR ""Survival"" OR ""Control*"" OR ""Healthy""",11056047,2015-01-01 to 2025-12-31,English or Chinese,Exact execution date not documented
+PubMed,13,#11 AND #12,1185,2015-01-01 to 2025-12-31,English or Chinese,Exact execution date not documented
+PubMed,14,"(""Animals"" NOT ""Humans"")",5401914,2015-01-01 to 2025-12-31,English or Chinese,Exact execution date not documented
+PubMed,15,#13 NOT #14,778,2015-01-01 to 2025-12-31,English or Chinese,Exact execution date not documented
+PubMed,16,#15 AND ((2015/1/1:2025/12/31[pdat]) AND (chinese[Filter] OR english[Filter])),685,2015-01-01 to 2025-12-31,English or Chinese,Exact execution date not documented
+Embase,1,'alcoholic hepatitis'/exp OR 'alcoholic liver cirrhosis'/exp,21132,2015-01-01 to 2025-12-31,English or Chinese,Exact execution date not documented
+Embase,2,"('alcohol' NEAR/3 'hepatitis'):ti,ab,kw",4189,2015-01-01 to 2025-12-31,English or Chinese,Exact execution date not documented
+Embase,3,"'acute alcoholic hepatitis':ti,ab,kw OR 'severe alcoholic hepatitis':ti,ab,kw OR 'alcoholic steatohepatitis':ti,ab,kw OR 'sAH':ti,ab,kw OR 'AAH':ti,ab,kw",40493,2015-01-01 to 2025-12-31,English or Chinese,Exact execution date not documented
+Embase,4,#1 OR #2 OR #3,61734,2015-01-01 to 2025-12-31,English or Chinese,Exact execution date not documented
+Embase,5,'intestine flora'/exp OR 'feces microflora'/exp OR 'dysbiosis'/exp OR 'bacterial translocation'/exp,176049,2015-01-01 to 2025-12-31,English or Chinese,Exact execution date not documented
+Embase,6,"('gut' NEAR/3 ('microbiota' OR 'microbiome' OR 'flora' OR 'bacteria')):ti,ab,kw",118865,2015-01-01 to 2025-12-31,English or Chinese,Exact execution date not documented
+Embase,7,"('intestinal' NEAR/3 ('microbiota' OR 'microbiome' OR 'flora')):ti,ab,kw",40556,2015-01-01 to 2025-12-31,English or Chinese,Exact execution date not documented
+Embase,8,"(('fecal' OR 'faecal' OR 'stool') NEAR/3 ('microbiota' OR 'microbiome' OR 'flora' OR 'sample')):ti,ab,kw",33215,2015-01-01 to 2025-12-31,English or Chinese,Exact execution date not documented
+Embase,9,"'16S rRNA':ti,ab,kw OR 'metagenome':ti,ab,kw OR 'metagenomics':ti,ab,kw OR 'shotgun sequencing':ti,ab,kw",122483,2015-01-01 to 2025-12-31,English or Chinese,Exact execution date not documented
+Embase,10,#5 OR #6 OR #7 OR #8 OR #9,306269,2015-01-01 to 2025-12-31,English or Chinese,Exact execution date not documented
+Embase,11,"'maddrey':ti,ab,kw OR 'meld':ti,ab,kw OR 'model for end-stage liver disease':ti,ab,kw OR 'ubic':ti,ab,kw OR 'lille model':ti,ab,kw OR 'glasgow score':ti,ab,kw OR 'severity':ti,ab,kw OR 'mortality':ti,ab,kw OR 'survival':ti,ab,kw OR 'control':ti,ab,kw OR 'healthy':ti,ab,kw",9842668,2015-01-01 to 2025-12-31,English or Chinese,Exact execution date not documented
+Embase,12,#4 AND #10 AND #11,796,2015-01-01 to 2025-12-31,English or Chinese,Exact execution date not documented
+Embase,13,'conference abstract'/it OR 'conference review'/it,5900781,2015-01-01 to 2025-12-31,English or Chinese,Exact execution date not documented
+Embase,14,#12 NOT #13,457,2015-01-01 to 2025-12-31,English or Chinese,Exact execution date not documented
+Embase,15,('animal'/exp OR 'nonhuman'/exp) NOT 'human'/exp,8442975,2015-01-01 to 2025-12-31,English or Chinese,Exact execution date not documented
+Embase,16,#14 NOT #15,365,2015-01-01 to 2025-12-31,English or Chinese,Exact execution date not documented
+Embase,17,#16 AND [2015-2025]/py AND ([chinese]/lim OR [english]/lim),322,2015-01-01 to 2025-12-31,English or Chinese,Exact execution date not documented
+Web of Science,1,"TS=(""Alcoholic hepatitis"" OR ""Alcohol-associated hepatitis"" OR ""Alcohol-related hepatitis"" OR ""Acute alcoholic hepatitis"" OR ""Severe alcoholic hepatitis"" OR ""Alcoholic steatohepatitis"" OR ""sAH"" OR ""AAH"")",25423,2015-01-01 to 2025-12-31,English or Chinese,Exact execution date not documented
+Web of Science,2,"TS=((""Alcoholic liver disease"" OR ""ALD"") AND (""Acute"" OR ""Severe"" OR ""Failure"" OR ""Inflammation""))",3770,2015-01-01 to 2025-12-31,English or Chinese,Exact execution date not documented
+Web of Science,3,#1 OR #2,28521,2015-01-01 to 2025-12-31,English or Chinese,Exact execution date not documented
+Web of Science,4,"TS=(""Gut microbiota"" OR ""Gut microbiome"" OR ""Gut flora"" OR ""Intestinal microbiota"" OR ""Intestinal microbiome"" OR ""Intestinal flora"" OR ""Gastrointestinal microbiota"")",135369,2015-01-01 to 2025-12-31,English or Chinese,Exact execution date not documented
+Web of Science,5,"TS=(""Fecal microbiota"" OR ""Fecal microbiome"" OR ""Faecal microbiota"" OR ""Faecal microbiome"" OR ""Stool microbiota"" OR ""Stool microbiome"")",20815,2015-01-01 to 2025-12-31,English or Chinese,Exact execution date not documented
+Web of Science,6,"TS=(""Dysbiosis"" OR ""Bacterial translocation"" OR ""Gut-liver axis"" OR ""Microbial community"" OR ""16S rRNA"" OR ""Metagenom*"" OR ""Shotgun sequencing"")",224383,2015-01-01 to 2025-12-31,English or Chinese,Exact execution date not documented
+Web of Science,7,#4 OR #5 OR #6,316849,2015-01-01 to 2025-12-31,English or Chinese,Exact execution date not documented
+Web of Science,8,"TS=(""Maddrey"" OR ""Discriminant function"" OR ""MELD"" OR ""Model for End-Stage Liver Disease"" OR ""Lille model"" OR ""Lille score"" OR ""ABIC score"" OR ""Glasgow score"" OR ""GAHS"" OR ""Severity"" OR ""Mortality"" OR ""Survival"" OR ""Prognosis"" OR ""Healthy control*"" OR ""Non-alcoholic"")",3546369,2015-01-01 to 2025-12-31,English or Chinese,Exact execution date not documented
+Web of Science,9,#3 AND #7 AND #8,735,2015-01-01 to 2025-12-31,English or Chinese,Exact execution date not documented
+Web of Science,10,"TI=(""Mouse"" OR ""Mice"" OR ""Rat"" OR ""Rats"" OR ""Rodent"" OR ""Murine"" OR ""Animal"" OR ""Porcine"" OR ""Rabbit"" OR ""In vitro"" OR ""Cell culture"")",1512647,2015-01-01 to 2025-12-31,English or Chinese,Exact execution date not documented
+Web of Science,11,#9 NOT #10,595,2015-01-01 to 2025-12-31,English or Chinese,Exact execution date not documented
+Web of Science,12,#11 and 2015 or 2016 or 2025 or 2024 or 2022 or 2023 or 2021 or 2020 or 2019 or 2018 or 2017 (Publication Years) and English (Languages),526,2015-01-01 to 2025-12-31,English or Chinese,Exact execution date not documented

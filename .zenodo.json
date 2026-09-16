@@ -1,0 +1,65 @@
+{
+  "title": "ProvFold 0.1.2: provenance-aware direction-based microbiome evidence synthesis",
+  "upload_type": "software",
+  "description": "<p>ProvFold is a Python package for provenance-aware aggregation of qualitative taxon-direction evidence. It validates analyst-declared provenance groups, comparison scope and taxonomic mappings and produces traceable votes, abstentions, estimator comparisons, threshold surfaces and group-omission analyses.</p><p>Version 0.1.2 provides the Python API and CLI, source-linked AH and HCC examples, the 18-scenario benchmark with 1,720 replicates and 30,960 configured-cell evaluations, complete support-threshold and estimator-equivalence post-processing, independent validators, and figure-generation scripts. The 18 configurations represent 10 distinct estimators.</p><p>The source archive contains the complete software and executable reproduction controls. The reproducibility archive contains the machine-readable analytical materials, deterministic synthetic streams, generated results and validation records. Core execution requires Python 3.11 or later and has no third-party runtime dependencies. Public-resource reconstruction additionally requires openpyxl 3.1.5 and five separately obtained, SHA-256-identified source files. Plotting requires Matplotlib, NumPy and Pillow.</p><p>The public-resource arms are analysed separately. Publication or BioProject grouping is an analyst-declared evidence unit, not proof of cohort independence. The software supports traceable recurrence analysis; it does not automatically identify cohorts, infer missing taxonomic lineage, or establish biological validity.</p><p>Software: MIT licence. Author-produced reproduction inputs and derived data: CC BY 4.0. Third-party database exports are not redistributed and retain their own rights.</p>",
+  "creators": [
+    {
+      "name": "Yang, Wenxuan",
+      "orcid": "0009-0005-2567-5746"
+    },
+    {
+      "name": "Sun, Zhaodong"
+    },
+    {
+      "name": "Dong, Wenhua"
+    },
+    {
+      "name": "Chi, Jiameng"
+    },
+    {
+      "name": "Lu, Yuqing"
+    },
+    {
+      "name": "Zeng, Yunhua"
+    },
+    {
+      "name": "Shi, Xinlan"
+    },
+    {
+      "name": "Xu, Zhenyan"
+    },
+    {
+      "name": "Tan, Chenle"
+    },
+    {
+      "name": "He, Wen"
+    },
+    {
+      "name": "Hu, Po"
+    },
+    {
+      "name": "Yang, Guangming"
+    },
+    {
+      "name": "Pan, Yang"
+    },
+    {
+      "name": "Wang, Xinzhu"
+    },
+    {
+      "name": "Tang, Huijuan"
+    }
+  ],
+  "version": "0.1.2",
+  "language": "eng",
+  "access_right": "open",
+  "license": "mit",
+  "keywords": [
+    "microbiome",
+    "provenance",
+    "evidence synthesis",
+    "Python",
+    "taxonomy",
+    "reproducibility"
+  ]
+}

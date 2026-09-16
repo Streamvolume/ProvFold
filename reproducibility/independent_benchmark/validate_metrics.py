@@ -3,6 +3,8 @@
 
 from __future__ import annotations
 
+from datetime import datetime, timezone
+
 from collections import defaultdict
 import csv
 import gzip
@@ -145,7 +147,7 @@ def main() -> None:
 
     report = {
         "schema_version": "1.0",
-        "date": "2026-08-12",
+        "executed_at": datetime.now(timezone.utc).isoformat(),
         "status": "PASS" if not mismatches and len(truth) == expected_replicates and compared_rows == expected_replicates * len(methods) else "FAIL",
         "expected_replicates": expected_replicates,
         "truth_replicates": len(truth),

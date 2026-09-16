@@ -1,0 +1,17 @@
+arm,disease_id,disease_label,full_voting_row_count,direct_genus_voting_row_count,full_evidence_unit_count,direct_genus_evidence_unit_count,full_family_taxon_state_count,direct_genus_family_taxon_state_count,full_selected_pair_count,direct_genus_selected_pair_count,added_by_lower_rank_folding,removed_after_lower_rank_folding,primary_pair_jaccard
+literature,D003093,"Colitis, Ulcerative",65,48,61,48,53,43,2,1,Escherichia|increased,,0.5
+literature,D003424,Crohn Disease,65,35,57,35,49,30,4,1,Blautia|decreased;Clostridium|decreased;Faecalibacterium|decreased,,0.25
+literature,D003922,"Diabetes Mellitus, Type 1",15,15,15,15,15,15,2,2,,,1.0
+literature,D003924,"Diabetes Mellitus, Type 2",25,23,25,23,25,23,1,1,,,1.0
+literature,D004485,Eczema,60,46,50,44,50,44,2,1,Bifidobacterium|decreased,,0.5
+literature,D009103,Multiple Sclerosis,15,15,15,15,11,11,1,1,,,1.0
+literature,D009765,Obesity,23,20,23,20,23,20,2,2,,,1.0
+literature,D010300,Parkinson Disease,35,18,28,18,28,18,4,2,Bacteroides|decreased;Blautia|decreased,,0.5
+literature,D015179,Colorectal Neoplasms,60,55,59,55,59,55,7,7,,,1.0
+literature,D015209,"Cholangitis, Sclerosing",7,7,7,7,7,7,1,1,,,1.0
+literature,D043183,Irritable Bowel Syndrome,16,15,16,15,16,15,1,1,,,1.0
+literature,D065626,Non-alcoholic Fatty Liver Disease,13,13,13,13,13,13,1,1,,,1.0
+rawdata,D003093,"Colitis, Ulcerative",108,89,74,62,74,62,14,12,Clostridium|increased;Phocaeicola|decreased,,0.85714286
+rawdata,D003324,Coronary Artery Disease,76,48,56,40,56,40,5,2,Bifidobacterium|increased;Limosilactobacillus|increased;Streptococcus|increased,,0.4
+rawdata,D003424,Crohn Disease,241,203,139,129,139,129,32,31,Bacteroides|decreased;Collinsella|decreased;Phocaeicola|decreased,Alistipes|decreased;Butyricicoccus|decreased,0.85294118
+rawdata,D010300,Parkinson Disease,290,198,194,158,194,158,33,29,Desulfovibrio|increased;Dialister|decreased;Flavonifractor|increased;Limosilactobacillus|increased,,0.87878788

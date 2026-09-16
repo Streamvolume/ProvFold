@@ -3,6 +3,8 @@
 
 from __future__ import annotations
 
+from datetime import datetime, timezone
+
 from collections import defaultdict
 import csv
 from dataclasses import replace
@@ -168,8 +170,8 @@ def failure_diagnostics(performance_summary: list[dict[str, object]], grid: dict
 
 def main() -> None:
     grid = json.loads(GRID_PATH.read_text(encoding="utf-8"))
-    if grid.get("status") not in {"FROZEN_BEFORE_PRODUCTION_RESULTS", "AMENDED_BEFORE_PUBLIC_RELEASE"}:
-        raise SystemExit("grid is neither frozen nor transparently amended")
+    if grid.get("status") not in {"FROZEN_BEFORE_PRODUCTION_RESULTS", "AMENDED_BEFORE_PUBLIC_RELEASE", "RELEASED_CONFIGURATION"}:
+        raise SystemExit("grid is neither frozen, transparently amended nor a released configuration")
     config = AggregationConfig.from_dict(grid["aggregation_config"])
     OUTPUT.mkdir(parents=True, exist_ok=True)
     GENERATED.mkdir(parents=True, exist_ok=True)
@@ -297,10 +299,9 @@ def main() -> None:
     write_csv(OUTPUT / "generated_stream_manifest.csv", generated_manifest_rows)
     result = {
         "schema_version": "1.0",
-        "date": "2026-08-12",
+        "executed_at": datetime.now(timezone.utc).isoformat(),
         "status": diagnostics["status"],
         "grid_status": grid["status"],
-        "amendment_history": grid.get("amendment_history", []),
         "grid_sha256": sha256(GRID_PATH),
         "policy_hash": config.policy_hash,
         "scenario_count": len(grid["scenarios"]),

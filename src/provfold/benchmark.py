@@ -102,7 +102,7 @@ def benchmark_predictions(
     truth: Iterable[Mapping[str, object]],
     config: AggregationConfig,
 ) -> list[dict[str, object]]:
-    """Score the legacy comparison catalogue on a shared truth space."""
+    """Score the five-rule comparison catalogue on a shared truth space."""
 
     return _score_predictions(compare_methods(records, config), METHOD_DEFINITIONS, truth, config)
 

@@ -1,10 +1,10 @@
 {
   "arms_pooled": false,
+  "contract_sha256": "e993d7cbb068ebaf84951810a72f8fa5031eb4dd24127794fdafb87b03209204",
   "cross_arm_balance_row_count": 64,
   "cross_arm_evaluable_disease_count": 3,
   "cross_arm_jaccard_row_count": 41,
   "cross_arm_predeclared_shared_disease_count": 4,
-  "date": "2026-08-12",
   "disbiome": {
     "arm": "disbiome",
     "experiment_identifier_reuse_count": 0,
@@ -32,14 +32,14 @@
     "strict_association_row_count": 5011
   },
   "evaluable_arm_disease_count": 16,
-  "independent_validation_error_count": 0,
+  "executed_at": "2026-09-16T13:23:57.226075+00:00",
   "literature_quantitative_disease_count": 12,
   "non_evaluable_arm_disease_count": 1,
   "publication_families_called_cohort_families": false,
   "quantitative_arm_disease_count": 17,
   "rawdata_quantitative_disease_count": 5,
   "schema_version": "1.0",
-  "status": "COMPLETE_INDEPENDENTLY_VALIDATED",
+  "status": "COMPLETE_PENDING_INDEPENDENT_VALIDATION",
   "taxonomy": {
     "alias_resolved_count": 4,
     "genus_lineage_available_count": 354,

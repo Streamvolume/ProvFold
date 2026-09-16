@@ -3,6 +3,8 @@
 
 from __future__ import annotations
 
+from datetime import datetime, timezone
+
 from collections import defaultdict
 import csv
 from dataclasses import replace
@@ -122,7 +124,7 @@ def main() -> None:
 
     report = {
         "schema_version": "1.0",
-        "date": "2026-08-12",
+        "executed_at": datetime.now(timezone.utc).isoformat(),
         "status": "PASS" if not mismatches else "FAIL",
         "scenario_count": len(grid["scenarios"]),
         "replayed_replicate_count": len(selected),

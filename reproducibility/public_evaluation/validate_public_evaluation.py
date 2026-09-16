@@ -3,6 +3,8 @@
 
 from __future__ import annotations
 
+from datetime import datetime, timezone
+
 from collections import defaultdict
 import csv
 import hashlib
@@ -286,7 +288,7 @@ def main() -> None:
 
     report = {
         "schema_version": "1.0",
-        "date": "2026-08-12",
+        "executed_at": datetime.now(timezone.utc).isoformat(),
         "status": "PASS" if not errors else "FAIL",
         "error_count": len(errors),
         "errors": errors[:100],
@@ -314,7 +316,7 @@ def main() -> None:
     )
     completion = {
         "schema_version": "1.0",
-        "date": "2026-08-12",
+        "executed_at": datetime.now(timezone.utc).isoformat(),
         "status": "COMPLETE_INDEPENDENTLY_VALIDATED" if not errors else "VALIDATION_FAILED",
         "contract_sha256": result["contract_sha256"],
         "results_sha256": sha256(OUTPUT / "results.json"),

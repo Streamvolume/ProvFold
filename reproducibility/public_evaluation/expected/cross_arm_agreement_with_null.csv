@@ -1,0 +1,4 @@
+disease_id,disease_label,comparable_direction_count,observed_sign_agreement_count,observed_sign_agreement_rate,exact_95_ci_lower,exact_95_ci_upper,rawdata_positive_count,literature_positive_count,marginal_null_expected_agreement,cohens_kappa,support_2_rawdata_selected_count,support_2_literature_selected_count,support_2_intersection_count,support_2_union_count,support_2_jaccard
+D003093,"Colitis, Ulcerative",19,16,0.84210526,0.60421545,0.96617375,10,7,0.49307479,0.68852459,14,2,0,16,0.0
+D003424,Crohn Disease,24,15,0.625,0.40593638,0.81200707,10,7,0.53472222,0.19402985,32,4,2,34,0.05882353
+D010300,Parkinson Disease,15,14,0.93333333,0.68051543,0.99831357,7,8,0.49777778,0.86725664,33,4,2,35,0.05714286

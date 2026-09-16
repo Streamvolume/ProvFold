@@ -3,6 +3,8 @@
 
 from __future__ import annotations
 
+from datetime import datetime, timezone
+
 from collections import Counter, defaultdict
 from dataclasses import replace
 import csv
@@ -841,7 +843,7 @@ def main() -> None:
 
     result = {
         "schema_version": "1.0",
-        "date": "2026-08-12",
+        "executed_at": datetime.now(timezone.utc).isoformat(),
         "status": "COMPLETE_PENDING_INDEPENDENT_VALIDATION",
         "contract_sha256": sha256(CONTRACT),
         "quantitative_arm_disease_count": len(arm_disease_summary),

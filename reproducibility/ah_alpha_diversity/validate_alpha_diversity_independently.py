@@ -9,6 +9,7 @@ script.
 from __future__ import annotations
 
 import csv
+import os
 import json
 import math
 from pathlib import Path
@@ -16,8 +17,9 @@ from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
 SOURCE = HERE / "input.csv"
-RESULTS = HERE / "generated_run/alpha_diversity_model_summary_dl_hk.csv"
-REPORT = HERE / "generated_run/alpha_diversity_independent_validation.json"
+OUTPUT = Path(os.environ.get("PROVFOLD_ALPHA_OUTPUT", HERE / "generated_run")).resolve()
+RESULTS = OUTPUT / "alpha_diversity_model_summary_dl_hk.csv"
+REPORT = OUTPUT / "alpha_diversity_independent_validation.json"
 
 
 def read_csv(path: Path) -> list[dict[str, str]]:

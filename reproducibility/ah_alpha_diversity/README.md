@@ -8,7 +8,7 @@ primary models and Ganesan replaces it in the registered sensitivity analysis.
 The calculations use inverse-variance DerSimonian-Laird random effects and
 Hartung-Knapp t inference with the modified Knapp-Hartung variance safeguard,
 SE=max(SE_HK, SE_DL). Unadjusted Hartung-Knapp and normal intervals are retained
-for transparent comparison with the historical RevMan result. Every row retains its report, cohort and
+as explicitly labelled sensitivity summaries. Every row retains its report, cohort and
 source-location identity. Run:
 
 ```bash

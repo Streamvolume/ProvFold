@@ -1,4 +1,6 @@
 include LICENSE
+include LICENSE.txt
+include SUBMISSION_CANDIDATE.md
 include CITATION.cff
 include CHANGELOG.md
 recursive-include docs *.md

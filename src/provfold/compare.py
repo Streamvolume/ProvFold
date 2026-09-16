@@ -214,7 +214,7 @@ def _summarize_factorial(
     votes: list[dict[str, str]],
     config: AggregationConfig,
 ) -> list[dict[str, object]]:
-    """Summarise a factorial cell without depending on the legacy method catalogue."""
+    """Summarise a factorial cell without depending on the five-rule method catalogue."""
 
     by_taxon: dict[str, list[dict[str, str]]] = defaultdict(list)
     for vote in votes:

@@ -1,0 +1,5 @@
+disease_id,disease_label,evaluation_status,shared_genus_count,nonzero_balance_comparison_count,sign_agreement_count,sign_agreement_rate
+D003093,"Colitis, Ulcerative",descriptive_non_pooled,21,19,16,0.84210526
+D003424,Crohn Disease,descriptive_non_pooled,26,24,15,0.625
+D010300,Parkinson Disease,descriptive_non_pooled,17,15,14,0.93333333
+D015179,Colorectal Neoplasms,non_evaluable_in_at_least_one_arm,0,0,0,

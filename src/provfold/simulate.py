@@ -133,7 +133,7 @@ def simulate_records(config: SimulationConfig) -> SimulationResult:
                     if rng.random() < config.direction_missing_probability:
                         direction = ""
                     ambiguous = rng.random() < config.ambiguous_taxonomy_probability
-                    # Do not advance the historical random stream when the new
+                    # Do not advance the base random stream when the new
                     # replacement perturbation is disabled.
                     replacement = (
                         config.rank_replacement_probability > 0

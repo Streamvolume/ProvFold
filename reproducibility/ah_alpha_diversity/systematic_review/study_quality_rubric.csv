@@ -1,20 +1,20 @@
 domain,item,maximum_score_or_state,coding_rule,coding_provenance
-1. Selection,①Is the case definition adequate?,★,"Awarded if: Cases were diagnosed with alcohol-associated hepatitis (AH) based on validated clinical guidelines (e.g., AASLD/EASL) or confirmed by liver biopsy.",recovered from the registered historical assessment manual
-1. Selection,①Is the case definition adequate?,★,Not awarded if: Diagnosis was based solely on self-report or was not clearly defined.,recovered from the registered historical assessment manual
-1. Selection,②Representativeness of the cases,★,"Awarded if: Cases were consecutively enrolled or were a representative sample (e.g., multicentre study).",recovered from the registered historical assessment manual
-1. Selection,②Representativeness of the cases,★,Not awarded if: There was potential selection bias or the sampling strategy was not described.,recovered from the registered historical assessment manual
-1. Selection,③Selection of Controls,★,Awarded if: Controls were selected from the same community or hospital population as the cases and clearly excluded other liver diseases.,recovered from the registered historical assessment manual
-1. Selection,③Selection of Controls,★,Not awarded if: Source of controls was not described or derived from a different population.,recovered from the registered historical assessment manual
-1. Selection,④Definition of Controls,★,"Awarded if: Absence of liver disease was confirmed by medical history and biochemical analysis (e.g., normal ALT/AST levels).",recovered from the registered historical assessment manual
-1. Selection,④Definition of Controls,★,"Not awarded if: Based on self-report of ""no disease"" only.",recovered from the registered historical assessment manual
-2. Comparability,①Comparability of cohorts on the basis of the design or analysis (Basic),★,Awarded if: The study controlled for age and sex (either by matching or statistical adjustment).,recovered from the registered historical assessment manual
+1. Selection,①Is the case definition adequate?,★,"Awarded if: Cases were diagnosed with alcohol-associated hepatitis (AH) based on validated clinical guidelines (e.g., AASLD/EASL) or confirmed by liver biopsy.",registered study-quality assessment rubric
+1. Selection,①Is the case definition adequate?,★,Not awarded if: Diagnosis was based solely on self-report or was not clearly defined.,registered study-quality assessment rubric
+1. Selection,②Representativeness of the cases,★,"Awarded if: Cases were consecutively enrolled or were a representative sample (e.g., multicentre study).",registered study-quality assessment rubric
+1. Selection,②Representativeness of the cases,★,Not awarded if: There was potential selection bias or the sampling strategy was not described.,registered study-quality assessment rubric
+1. Selection,③Selection of Controls,★,Awarded if: Controls were selected from the same community or hospital population as the cases and clearly excluded other liver diseases.,registered study-quality assessment rubric
+1. Selection,③Selection of Controls,★,Not awarded if: Source of controls was not described or derived from a different population.,registered study-quality assessment rubric
+1. Selection,④Definition of Controls,★,"Awarded if: Absence of liver disease was confirmed by medical history and biochemical analysis (e.g., normal ALT/AST levels).",registered study-quality assessment rubric
+1. Selection,④Definition of Controls,★,"Not awarded if: Based on self-report of ""no disease"" only.",registered study-quality assessment rubric
+2. Comparability,①Comparability of cohorts on the basis of the design or analysis (Basic),★,Awarded if: The study controlled for age and sex (either by matching or statistical adjustment).,registered study-quality assessment rubric
 2. Comparability,②Comparability of cohorts on the basis of the design or analysis (Additional),★,"Awarded if: The study controlled for recent antibiotic use (critical), BMI, or dietary habits.
-Note: No star is awarded if the study failed to report exclusion or adjustment for antibiotic use (typically within 1–3 months).",recovered from the registered historical assessment manual
-3. Outcome/exposure,①Ascertainment of exposure (Microbiota profiling),★,"Awarded if: Sample collection, DNA extraction, and sequencing platforms (e.g., 16S rRNA sequencing or metagenomic sequencing) were clearly described and are standard methods.",recovered from the registered historical assessment manual
-3. Outcome/exposure,②Same method of ascertainment for cases and controls,★,"Awarded if: Both cases and controls used the identical DNA extraction kits, sequencing regions (e.g., V3-V4), and platforms to avoid batch effects.",recovered from the registered historical assessment manual
-3. Outcome/exposure,②Same method of ascertainment for cases and controls,★,Not awarded if: Methods differed between groups or were not described.,recovered from the registered historical assessment manual
-3. Outcome/exposure,③Non-response rate,★,"Awarded if: Non-response rates were similar between groups, or exclusion rates and reasons were comparable.",recovered from the registered historical assessment manual
-3. Outcome/exposure,③Non-response rate,★,Not awarded if: Non-response rates differed between groups or were not reported.,recovered from the registered historical assessment manual
+Note: No star is awarded if the study failed to report exclusion or adjustment for antibiotic use (typically within 1–3 months).",registered study-quality assessment rubric
+3. Outcome/exposure,①Ascertainment of exposure (Microbiota profiling),★,"Awarded if: Sample collection, DNA extraction, and sequencing platforms (e.g., 16S rRNA sequencing or metagenomic sequencing) were clearly described and are standard methods.",registered study-quality assessment rubric
+3. Outcome/exposure,②Same method of ascertainment for cases and controls,★,"Awarded if: Both cases and controls used the identical DNA extraction kits, sequencing regions (e.g., V3-V4), and platforms to avoid batch effects.",registered study-quality assessment rubric
+3. Outcome/exposure,②Same method of ascertainment for cases and controls,★,Not awarded if: Methods differed between groups or were not described.,registered study-quality assessment rubric
+3. Outcome/exposure,③Non-response rate,★,"Awarded if: Non-response rates were similar between groups, or exclusion rates and reasons were comparable.",registered study-quality assessment rubric
+3. Outcome/exposure,③Non-response rate,★,Not awarded if: Non-response rates differed between groups or were not reported.,registered study-quality assessment rubric
 Total,Total Score,9,"High quality ≥ 7 stars
 Moderate quality 4–6 stars
-Low quality < 4 stars",recovered from the registered historical assessment manual
+Low quality < 4 stars",registered study-quality assessment rubric

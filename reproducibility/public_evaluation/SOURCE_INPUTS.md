@@ -1,79 +1,32 @@
-# Official source inputs for the public-resource reconstruction
+# Public-resource inputs for ProvFold 0.1.2
 
-The public-resource analyses used independently downloaded official sources.
-These source exports are not redistributed in the ProvFold archive because an
-affirmative database-export licence was not located. Retrieve the five files
-listed in `source_input_identities.csv`, preserve the listed file names and
-place them in one directory. Exact reconstruction requires the recorded
-SHA-256 identities; a current file with a different identity is a new source
-state and should be analysed as such.
+The analysis uses five source files with exact identities listed in `source_input_identities.csv` and enforced by `execution_contract.json`. The source collection date recorded in the supplied analysis materials is **11 August 2026**. This is an input acquisition date, not the date of a software execution or an AH literature search.
 
-Set that directory and a separate output directory before running the scripts:
+The original database exports are kept outside the public distribution because affirmative permission to redistribute complete exports has not been established. Access from an official service does not itself grant redistribution rights. Users must obtain the identified files from the providers or another authorised source. The adapter fails rather than silently accepting different input bytes.
+
+## Required files
+
+- `gutMDisorder_v3_Rawdata-based_Disorder_Health.xlsx`
+- `gutMDisorder_v3_Literature-based_Disorder_Health.xlsx`
+- `ncbi_taxonomy_mapping.csv`
+- `experiment.json`
+- `publication_accession_numbers.json`
+
+## Providers
+
+gutMDisorder resource page: https://bio-computing.hrbmu.edu.cn/gutMDisorder/resource.dhtml . The two workbooks are described by their service-provided filenames containing `v3`; that label is not used to infer a separate database-paper release. `retrieve_gutmdisorder_inputs.py` requests the official workbooks and checks their identities.
+
+NCBI Taxonomy E-utilities: https://www.ncbi.nlm.nih.gov/books/NBK25499/ . The distribution includes the 503-identifier query and `fetch_ncbi_taxonomy.py`. Only numeric identifiers and explicit genus lineage are used; no approximate name matching is performed. Verify the mapping checksum before use.
+
+Disbiome export: https://disbiome.ugent.be/export . The analysis uses the experiment export and a complete publication-level accession lookup. Experiment-family identity is not inferred from publication identity: unresolved experiment families abstain in the strict analysis.
+
+## Execute
 
 ```bash
-export PROVFOLD_PUBLIC_INPUT_DIR=/path/to/source_inputs
-export PROVFOLD_PUBLIC_OUTPUT=/path/to/public_evaluation_results
+export PROVFOLD_PUBLIC_INPUT_DIR=/absolute/path/to/source_inputs
+export PROVFOLD_PUBLIC_OUTPUT=/absolute/path/to/results/public_evaluation
 python reproducibility/public_evaluation/run_public_evaluation.py
 python reproducibility/public_evaluation/validate_public_evaluation.py
 ```
 
-## gutMDisorder exports labelled v3 by the service
-
-Official resource page:
-<https://bio-computing.hrbmu.edu.cn/gutMDisorder/resource.dhtml>
-
-The official Resource page listed the disorder–health raw-data and literature
-workbooks with filenames containing `v3` on 11 August 2026. The site's Release
-& Version page still listed v2.0 as its latest named release, and the most
-recent database paper describes v2.0; no separate v3 release note or paper was
-located. The article therefore describes these as files labelled v3 by the
-service, not as a documented v3 publication release.
-
-Retrieve and verify the two registered files with:
-
-```bash
-python reproducibility/public_evaluation/retrieve_gutmdisorder_inputs.py
-```
-
-The script uses the exact official download endpoint exposed by the Resource
-page and fails loudly on a SHA-256 mismatch. A current file with a different
-identity is a new source state and must not be described as an exact replay.
-
-## NCBI Taxonomy
-
-Official E-utilities documentation:
-<https://www.ncbi.nlm.nih.gov/books/NBK25499/>
-
-The registered analysis queried numeric Taxonomy identifiers only and used an
-explicit genus lineage. No approximate name matching was performed. The
-redistributable 503-identifier query is included. To reconstruct the mapping
-from NCBI EFetch, run:
-
-```bash
-python reproducibility/public_evaluation/fetch_ncbi_taxonomy.py
-```
-
-The script writes `ncbi_taxonomy_mapping.csv` into
-`PROVFOLD_PUBLIC_INPUT_DIR`. A changed mapping hash records taxonomy drift and
-must not be silently substituted for the recorded mapping.
-
-## Disbiome
-
-Official export page:
-<https://disbiome.ugent.be/export>
-
-The strict analysis required human faecal disease–healthy-control comparisons
-with a qualitative direction. It used the official experiment export and a
-complete publication-level accession lookup saved as
-`publication_accession_numbers.json`. Experiment-family identity was not
-recoverable from either source; those records therefore abstained from
-recurrence analysis. If the current official service returns a different
-snapshot, retain the new date and identity rather than describing the run as
-an exact reconstruction.
-
-## Interpretation
-
-The gutMDisorder raw-data arm uses a BioProject-resolved project family. The
-literature arm uses a publication family, not a cohort family. The Disbiome arm
-is a determinability and abstention analysis. The three arms must not be
-pooled.
+The raw-data arm uses BioProject-resolved project groups; the literature arm uses publication groups; the Disbiome strict arm measures determinability and abstention. These arms are not pooled.

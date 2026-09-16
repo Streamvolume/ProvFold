@@ -19,4 +19,4 @@ __all__ = [
     "validate_records",
 ]
 
-__version__ = "0.1.1"
+__version__ = "0.1.2"

@@ -28,78 +28,6 @@
     "schema_version": "1.0",
     "target_rank": "genus"
   },
-  "amendment_history": [
-    {
-      "changes": [
-        "Add one rank-replacement scenario with an explicit target-rank lineage.",
-        "Add one rank-replacement scenario without a usable lineage, producing an explicit non-voting mapping state.",
-        "Retain the earlier append-style perturbation under the more precise name ancestor-descendant duplication stress."
-      ],
-      "date": "2026-08-12",
-      "type": "rank_replacement_stress_extension",
-      "unchanged": [
-        "all 16 existing scenario definitions and seed indices",
-        "latent truth and participant-level generation",
-        "aggregation rules and performance metrics",
-        "no-replicate-exclusion rule"
-      ]
-    },
-    {
-      "changes": [
-        "Report the 18 configured cells as 10 distinct estimators with explicit equivalence classes.",
-        "Generate unique synthetic report-specific lower-rank labels so that the taxonomy stress fragments rather than invents cross-family support.",
-        "Treat comparator_leakage as a scope-filter regression because secondary-tier rows are intentionally excluded from every scope-matched estimator.",
-        "Represent empty-set precision and false-discovery proportion as undefined and count undefined replicates in summaries.",
-        "Add threshold calibration from the existing simulated records without changing latent truth or participant observations."
-      ],
-      "date": "2026-08-12",
-      "type": "post_peer_review_attribution_and_metric_correction",
-      "unchanged": [
-        "latent-state definition",
-        "scenario parameters",
-        "seed formula",
-        "family-effect and participant-level generation",
-        "no-replicate-exclusion rule"
-      ]
-    },
-    {
-      "changes": [
-        "Expose all eligible comparison strata to the four naive comparators while the provenance-aware method continues to use configured primary comparisons and evidence tiers.",
-        "Calculate specificity and false recurrent-signal rate over the complete taxon-by-direction state space.",
-        "Remove direction accuracy among exact true positives."
-      ],
-      "date": "2026-08-12",
-      "type": "implementation_and_metric_correction",
-      "unchanged": [
-        "latent-state generator",
-        "scenario parameters",
-        "seed schedule",
-        "support and opposition thresholds",
-        "truth, family-effect and record-stream definitions",
-        "co-primary F1 definition",
-        "headline comparison set"
-      ]
-    },
-    {
-      "changes": [
-        "Replace the headline five-rule benchmark with a scope-matched 3 x 2 x 3 factorial ablation over voting unit, taxon key and comparison handling.",
-        "Restrict every headline method to the same primary comparisons and primary evidence tiers.",
-        "Add a structural multi-primary-comparison scenario with three panels per family.",
-        "Use binomial-shaped synthetic lower-rank labels and report out-of-truth selections separately.",
-        "Calculate false recurrent-signal rate only on the shared truth taxon-by-direction space and report precision and false-discovery proportion as primary user-facing quantities."
-      ],
-      "date": "2026-08-12",
-      "type": "independent_peer_review_attribution_correction",
-      "unchanged": [
-        "latent truth definition",
-        "seed formula",
-        "support and opposition thresholds",
-        "existing scenario parameters",
-        "family-effect and participant-level generation",
-        "no-replicate-exclusion rule"
-      ]
-    }
-  ],
   "base_simulation": {
     "ambiguous_taxonomy_probability": 0.05,
     "between_family_sd": 0.3,
@@ -346,7 +274,7 @@
   },
   "software": {
     "name": "provfold",
-    "version": "0.1.1"
+    "version": "0.1.2"
   },
   "status": "RELEASED_CONFIGURATION",
   "stopping_rules": {

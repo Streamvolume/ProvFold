@@ -1,43 +1,43 @@
 item,topic,checklist_requirement,reported_location,status_or_note
-1,Title,Identify the report as a systematic review,Title and Abstract,Reported as an embedded systematic-review component
-2,Abstract,Use a structured summary,Abstract,Reported for the complete Software Article
-3,Rationale,Describe the rationale in the context of existing knowledge,Background; Shared AH provenance registry,Reported
-4,Objectives,State the review objectives,Background; Shared AH provenance registry,Reported
-5,Eligibility,Specify inclusion and exclusion criteria,Implementation: Search and screening; AF1 S8.1,Reported
-6,Information sources,Specify databases and other sources,Implementation: Search and screening; AF1 S8.1; Table S37,Reported
-7,Search dates,Report the last search date for each source,Implementation: Search and screening; Discussion limitations; AF1 S8.1,Historical limitation disclosed: exact dates were not retained
-8,Search strategy,Present full search strategies,Table S37,Reported
-9,Selection process,Describe reviewer selection procedures,Implementation: Search and screening; AF1 S8.1,Reported
-10a,Data collection,Describe reviewer extraction procedures,Implementation: Extraction and appraisal; AF1 S8.2,Reported
-10b,Missing information,Describe procedures to obtain or confirm data,AF1 S8.1–S8.3,Reported: authors were not contacted; non-entry records are listed
-11,Data items,Define outcomes and other variables,Implementation: Statistical analysis; AF1 S8.3; Tables S32 and S42,Reported
-12,Risk of bias,Describe the study appraisal method,Implementation: Extraction and appraisal; AF1 S8.2; Tables S39–S41,Reported
-13a,Effect measures,Specify effect measures,Implementation: Statistical analysis; AF1 S8.3,Reported
-13b,Synthesis eligibility,Describe how studies were assigned to syntheses,AF1 S8.2–S8.3; Tables S32 and S42,Reported
-13c,Data preparation,Describe data preparation,Implementation: Extraction and appraisal; AF1 S8.2,Reported
-13d,Display methods,Describe tabulation or visualisation,Results: AH branches; Figure 4; Tables S32–S36,Reported
-13e,Synthesis methods,Describe statistical synthesis and heterogeneity,Implementation: Statistical analysis; AF1 S8.3,Reported
-13f,Heterogeneity exploration,Describe methods used to explore heterogeneity,Implementation: Statistical analysis; AF1 S8.3,Reported through leave-one-cohort-out and replacement analyses
-14,Reporting bias,Describe assessment of missing-result bias,Implementation: Statistical analysis; AF1 S8.3,Not assessed because every model contained fewer than 10 studies
-15,Certainty,Describe certainty-assessment methods,AF1 S8.2; Discussion,No formal certainty framework was applied; study appraisal and interval limits are reported
-16a,Study selection,Report selection results and flow,Results: AH branches; AF1 S8.1; Figure S1; Table S38,Reported
-16b,Excluded studies,Cite apparently eligible exclusions and reasons,Table S42 and the registered exclusion ledger described in AF1 S8.1,Reported for outcome-level non-entry and full-text exclusion categories
-17,Study characteristics,Present characteristics of included studies,"Table S47; Tables S32, S36, S39 and S42",Reported
-18,Risk-of-bias results,Present appraisal for each study,Results: AH branches; Tables S39 and S40,Reported
-19,Individual results,Present study-level estimates and precision,Figure 4A; Table S36,Reported
-20a,Synthesis contribution,Summarise contributing-study characteristics,"Results: AH branches; Tables S32, S36 and S40",Reported
-20b,Synthesis results,"Present pooled estimates, precision and heterogeneity",Results: AH branches; AF1 S8.4; Table S33,Reported
-20c,Heterogeneity investigation,Present analyses of heterogeneity,AF1 S8.4; Tables S34 and S35,Reported
-20d,Sensitivity,Present sensitivity analyses,Results: AH branches; AF1 S8.4; Tables S34 and S35,Reported
-21,Reporting biases,Present assessments of missing-result bias,Implementation: Statistical analysis; AF1 S8.3,Not assessed because every model contained fewer than 10 studies
-22,Certainty results,Present certainty assessments,Discussion,No formal certainty rating was produced; interval and extraction limits are reported
-23a,Interpretation,Interpret results in relation to other evidence,Discussion,Reported
-23b,Evidence limitations,Discuss limitations of included evidence,Discussion,Reported
-23c,Process limitations,Discuss review-process limitations,Discussion; AF1 S8.1–S8.3,Reported
-23d,Implications,Discuss implications for practice and research,Discussion; Conclusions,Reported
-24a,Registration,Provide registration information,Implementation: Search and screening; AF1 S8.1,Reported with canonical PROSPERO URL
-24b,Protocol,Indicate where the protocol can be accessed,Implementation: Search and screening; AF1 S8.1,PROSPERO record reported
-24c,Amendments,Describe and explain protocol amendments,Implementation: Search and screening; AF1 S8.1,Eligibility deviation reported; historical rationale was not retained
-25,Support,Describe financial or non-financial support,Declarations: Funding,Reported
-26,Competing interests,Declare competing interests,Declarations: Competing interests,Reported
-27,Availability,Report availability of data and materials,Availability and requirements; Declarations; Additional files,Reported
+1,Title,Identify a systematic review,AF1 S8 title and scope; Main 4,"Embedded review identified in the supplement; main title identifies software, not a standalone systematic review"
+2,Abstract,Follow the PRISMA abstract checklist,Main Abstract; AF1 S8,SoftwareX unstructured software abstract supplied; no separate PRISMA review abstract
+3,Rationale,Explain context and rationale,Main 1 and 4; AF1 S8-S9,Software and provenance rationale reported; disease-focused background compressed
+4,Objectives,State review questions,AF1 S8.1; Main 4,"Population, comparator and extractability scope reported"
+5,Eligibility,Give inclusion and exclusion criteria,AF1 S8.1,"Reported, including the recorded severity/prognosis eligibility deviation"
+6,Information sources,Identify sources and last search dates,AF1 S8.1; Table S37,Sources and publication window reported; exact database execution dates were not retained
+7,Search strategy,Provide full search strategies,Table S37; AF1 S8.1,Recorded 45-line strategies supplied
+8,Selection process,Describe screening and reviewer procedures,AF1 S8.1,Two independent reviewers reported; no new screening was performed
+9,Data collection,Describe extraction and reviewer procedures,AF1 S8.2,"Extraction, consensus and digitisation reported; authors were not contacted for missing data"
+10a,Outcomes,Define outcomes and selection rules,AF1 S8.3; Tables S32 and S42,"Outcomes, orientation, membership and unavailable numerical inputs reported"
+10b,Other data,Define other variables and assumptions,AF1 S8.2; Tables S39-S42 and S47,"Study characteristics, cohort identity and appraisal recorded; missingness retained"
+11,Risk of bias,Describe appraisal methods,AF1 S8.2; Table S41,Modified Newcastle-Ottawa rubric and independent assessment reported
+12,Effect measures,Specify effect measures,AF1 S8.3,Standardised mean differences; Simpson dominance orientation specified
+13a,Synthesis eligibility,Explain assignment to syntheses,AF1 S8.2-S8.3; Tables S32 and S42,Primary/replacement cohort assignment and outcome membership supplied
+13b,Data preparation,Explain preparation and missing-data handling,AF1 S8.2-S8.3; Table S36,Source-linked SMD/SE inputs and digitisation history retained; no new extraction
+13c,Display,Describe tables and visualisations,AF1 S8.4; Figure S2; Tables S33-S36,"Study estimates, weights, pooled interval and supporting tables supplied"
+13d,Synthesis methods,Explain synthesis and heterogeneity methods,AF1 S8.3,DerSimonian-Laird; safeguarded Hartung-Knapp; heterogeneity and code supplied
+13e,Heterogeneity exploration,Describe heterogeneity analyses,AF1 S8.3-S8.4; Tables S34-S35,No formal subgroup analysis or meta-regression was conducted; cohort-omission and report-replacement sensitivity is reported under item 13f
+13f,Sensitivity methods,Describe sensitivity analyses,AF1 S8.3-S8.4; Tables S34-S35,Cohort omission and Eom/Ganesan replacement reported
+14,Reporting-bias methods,Describe assessment of missing-result bias,AF1 S8.3,Funnel-plot asymmetry not assessed: fewer than 10 independent contributions per outcome
+15,Certainty methods,Describe certainty assessment,AF1 S8.2-S8.4; Main 4,No formal certainty framework applied; appraisal and interval limitations retained
+16a,Study selection,Report selection counts and flow,AF1 S8.1; Figure S1; Table S38,Complete recorded numerical flow supplied
+16b,Excluded studies,Cite exclusions and give reasons,AF1 S8.1; Tables S38 and S42,Partial: full-text exclusion categories and outcome non-entry are available; citation-level list of the 161 excluded full texts is not packaged
+17,Study characteristics,Describe each included study,"Table S47; Tables S32, S36 and S39",One row for each of 22 included reports
+18,Risk-of-bias results,Give study-level appraisal results,AF1 S8.2; Tables S39-S40,All included reports and quantitative subset supplied
+19,Individual results,Give estimates and precision,Figure S2; Table S36,"Study-level SMDs, intervals, weights and sources supplied"
+20a,Synthesis contributions,Describe contributing studies,"AF1 S8.2-S8.4; Tables S32, S40 and S42",Primary and replacement contributions distinguished
+20b,Synthesis results,Report pooled results and heterogeneity,AF1 S8.4; Table S33,All primary safeguarded intervals include zero
+20c,Heterogeneity results,Report heterogeneity investigations,AF1 S8.4; Tables S34-S35,No subgroup or meta-regression results; heterogeneity summaries and sensitivity results remain in Tables S33-S35
+20d,Sensitivity results,Report sensitivity analyses,AF1 S8.4; Tables S34-S35,Reported without new outcomes or analyses
+21,Reporting-bias results,Report missing-result bias assessments,AF1 S8.3,Not assessed; small numbers disclosed
+22,Certainty results,Report certainty assessments,AF1 S8.2-S8.4; Main 4,No formal certainty ratings produced
+23a,Interpretation,Interpret findings in context,Main 4; AF1 S8.4-S9,"Interpretation focuses on provenance and uncertainty, not a new clinical conclusion"
+23b,Evidence limitations,Discuss evidence limitations,Main 4; AF1 S8.2-S8.4,Small outcome-specific evidence sets and unavailable numerical panels disclosed
+23c,Process limitations,Discuss review-process limitations,AF1 S8.1-S8.3,"Missing execution dates, protocol deviation, grey-literature exclusion and no author contact disclosed"
+23d,Implications,Discuss research and practice implications,Main 4-5; AF1 S8-S9,Software and evidence-curation implications only; no clinical validation claimed
+24a,Registration,Give registration details,AF1 S8.1,PROSPERO identifier and registration version reported
+24b,Protocol,Identify protocol access,AF1 S8.1; supplementary reference to PROSPERO,Registered URL retained; no newly amended registration claimed
+24c,Amendments,Explain protocol deviations,AF1 S8.1,Severity/prognosis eligibility requirement relaxed because the planned severity analysis could not be completed; rationale and implemented criteria disclosed
+25,Support,Describe financial and other support,Main Funding; Author_Funding_Declarations.docx,Author-confirmed funding statement supplied; funder involvement is not separately reported
+26,Competing interests,Declare competing interests,Main Declaration of competing interest; Author_Funding_Declarations.docx,Competing-interest declaration confirmed by the authors
+27,Availability,Describe availability of materials,Main Data and software availability; Additional files 2-3,Packaged and external input files distinguished; complete public-resource analysis executed with SHA-256-verified inputs

@@ -1,9 +1,15 @@
 # Figure reproduction
 
-The four article figures are generated from the registered input tables in `inputs/`. The script performs no manual or generative-image post-processing. Install Matplotlib, NumPy and Pillow, then run:
+Run `python reproducibility/figures/build_figures.py` and `python reproducibility/figures/build_prisma_figure.py` from the source root with Matplotlib, NumPy and Pillow installed. Set `PROVFOLD_FIGURE_OUTPUT` to a separate destination. Figures are generated from the bundled analytical tables; no generative image model is used.
 
-```bash
-python reproducibility/figures/build_figures.py
-```
+| Figure | Content |
+|---|---|
+| 1 | Input, operations and output workflow |
+| 2 | HCC counting policy and support provenance |
+| 3 | Simulation estimators and support trade-offs |
+| 4 | Separate public-resource arms and concordance |
+| S1 | AH review flow |
+| S2 | AH Shannon forest plot |
+| S3 | AH threshold and group-omission analysis |
 
-Set `PROVFOLD_FIGURE_OUTPUT` to direct the PDF, SVG, PNG, TIFF and provenance-manifest outputs to another directory.
+The builders write PDF, SVG, PNG and TIFF. Multi-panel figures compare related analytical quantities, and do not treat different counting units as sequential attrition.

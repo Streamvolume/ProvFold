@@ -1,5 +1,7 @@
 # ProvFold
 
+ProvFold version 0.1.2.
+
 ProvFold is a dependency-light Python package for auditing qualitative
 taxon–direction synthesis when source rows, reports, provenance groups,
 comparison strata and taxonomic labels represent different analytical units.
@@ -23,10 +25,34 @@ install it without consulting a package index:
 
 ```bash
 python -m pip wheel --no-build-isolation --no-deps . -w wheelhouse
-python -m pip install --no-index --find-links wheelhouse provfold==0.1.1
+python -m pip install --no-index --find-links wheelhouse provfold==0.1.2
 ```
 
-## Minimal run
+## First run and output interpretation
+
+After extracting this source archive, change into its top-level directory (the one containing `pyproject.toml`, `examples/` and `src/`). Create and activate a Python 3.11-or-later virtual environment. On POSIX systems:
+
+```bash
+python3 -m venv .venv
+. .venv/bin/activate
+python -m pip install .
+provfold reproduce --recipe examples/minimal/recipe.json --output-dir results/minimal
+```
+
+On Windows, use the environment's `Scripts` activation script; the ProvFold command is unchanged. The recipe resolves `input.csv` and `config.json` relative to `examples/minimal/`. Build tooling is distinct from the zero-third-party-dependency analysis core. The wheel route above supports offline installation when the build tools or wheel are already available.
+
+Inspect these actual generated files:
+
+- `results/minimal/validation.json`: validation status.
+- `results/minimal/aggregate/taxon_summaries.csv`: `Taxon_A` is retained as increased, supported by `F001` and `F002`; `Taxon_B` is not retained because the two groups disagree; `Taxon_C` is `conflict_only`. The configuration uses support 2, opposition 0 and conflict-as-abstention.
+- `results/minimal/aggregate/abstentions.csv`: `R008` is non-voting with `family_state=indeterminate`. Abstention is not an opposite direction.
+- `results/minimal/aggregate/record_map.csv` and `evidence_units.csv`: follow contributing rows to their source locations.
+- `results/minimal/sensitivity/threshold_surface.csv` and `omit_family/leave_one_family_out.csv`: inspect threshold and provenance-group dependence.
+- `results/minimal/run_manifest.json`: verify input, configuration and output identities and the software version.
+
+These synthetic labels illustrate the output contract, not biological findings. No data service, Docker image or graphical interface is required or supplied.
+
+## Individual CLI operations
 
 ```bash
 provfold validate --input examples/minimal/input.csv --config examples/minimal/config.json
@@ -113,12 +139,14 @@ PYTHONPATH=src python -m unittest discover -s tests -p 'test*.py' -v
 ```
 
 The complete 1,720-replicate benchmark is intentionally a separate command
-because it creates approximately 45 MB of deterministic synthetic streams:
+because it creates approximately 75 MB of deterministic synthetic streams:
 
 ```bash
 python reproducibility/independent_benchmark/run_independent_benchmark.py
 python reproducibility/independent_benchmark/validate_metrics.py
 python reproducibility/independent_benchmark/validate_replay.py
+python reproducibility/independent_benchmark/postprocess_benchmark.py
+python reproducibility/validate_expected_outputs.py
 ```
 
 The public-resource reconstruction requires separately retrieved official
@@ -145,6 +173,4 @@ curation remain upstream analytical tasks.
 
 The software is licensed under the MIT licence. The accompanying
 reproducibility datasets are released under CC BY 4.0. Citation metadata are
-provided in `CITATION.cff`. Version 0.1.1 is archived at
-https://doi.org/10.5281/zenodo.21915120, and the continuing source repository is
-https://github.com/Streamvolume/ProvFold.
+provided in `CITATION.cff`. Version 0.1.2 source and reproducibility materials are included in this distribution. Citation metadata are provided in `CITATION.cff`.
