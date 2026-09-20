@@ -202,8 +202,7 @@ def figure_1() -> list[Path]:
         if index < len(outputs) - 1:
             arrow(ax, (0.50, y - 0.006), (0.50, y - 0.045), colour=ORANGE)
 
-    # One clean arrow between each stage avoids the visually ambiguous branch
-    # lines in the previous version while preserving the A -> B -> C order.
+    # Connect adjacent workflow stages once, preserving the A -> B -> C order.
     for left_ax, right_ax, colour in zip(axes[:-1], axes[1:], (BLUE, TEAL)):
         left = left_ax.get_position()
         right = right_ax.get_position()

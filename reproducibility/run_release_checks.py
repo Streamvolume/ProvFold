@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Run candidate-contained integrity, unit, example and empirical-case checks."""
+"""Check distribution integrity, unit tests, examples and empirical-case outputs."""
 
 from __future__ import annotations
 

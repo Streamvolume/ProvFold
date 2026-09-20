@@ -2,7 +2,7 @@
 
 ProvFold version 0.1.2.
 
-ProvFold is a dependency-light Python package for auditing qualitative
+ProvFold is a Python package for auditing qualitative
 taxon–direction synthesis when source rows, reports, provenance groups,
 comparison strata and taxonomic labels represent different analytical units.
 
@@ -13,8 +13,16 @@ omission and configuration-equivalence analyses.
 
 ## Installation
 
-ProvFold requires Python 3.11 or later and has no third-party runtime
-dependency.
+ProvFold requires Python 3.11 or later. Dependency requirements differ by task:
+
+| Task | Requirements |
+|---|---|
+| Installed analysis core and CLI | Python standard library only |
+| Build or installation from source | `setuptools>=68`, supplied by the build frontend or installed beforehand for `--no-build-isolation` |
+| Public-resource reconstruction | `openpyxl==3.1.5`, installed with `python -m pip install '.[reproduction]'` |
+| Figure generation | Matplotlib, NumPy and Pillow, installed separately |
+
+Run source-tree commands from the directory containing `pyproject.toml`.
 
 ```bash
 python -m pip install .
@@ -46,8 +54,8 @@ Inspect these actual generated files:
 - `results/minimal/validation.json`: validation status.
 - `results/minimal/aggregate/taxon_summaries.csv`: `Taxon_A` is retained as increased, supported by `F001` and `F002`; `Taxon_B` is not retained because the two groups disagree; `Taxon_C` is `conflict_only`. The configuration uses support 2, opposition 0 and conflict-as-abstention.
 - `results/minimal/aggregate/abstentions.csv`: `R008` is non-voting with `family_state=indeterminate`. Abstention is not an opposite direction.
-- `results/minimal/aggregate/record_map.csv` and `evidence_units.csv`: follow contributing rows to their source locations.
-- `results/minimal/sensitivity/threshold_surface.csv` and `omit_family/leave_one_family_out.csv`: inspect threshold and provenance-group dependence.
+- `results/minimal/aggregate/record_map.csv` and `results/minimal/aggregate/evidence_units.csv`: follow contributing rows to their source locations.
+- `results/minimal/sensitivity/threshold_surface.csv` and `results/minimal/omit_family/leave_one_family_out.csv`: inspect threshold and provenance-group dependence.
 - `results/minimal/run_manifest.json`: verify input, configuration and output identities and the software version.
 
 These synthetic labels illustrate the output contract, not biological findings. No data service, Docker image or graphical interface is required or supplied.
@@ -66,11 +74,11 @@ provfold reproduce --recipe examples/minimal/recipe.json --output-dir results/re
 The same operations are available from Python:
 
 ```python
-from provfold import AggregationConfig, aggregate
-from provfold.io import read_csv, read_json
+from provfold import aggregate
+from provfold.io import read_csv, load_aggregation_config
 
-config = AggregationConfig.from_dict(read_json("config.json"))
-result = aggregate(read_csv("input.csv"), config)
+config = load_aggregation_config("examples/minimal/config.json")
+result = aggregate(read_csv("examples/minimal/input.csv"), config)
 print(result.taxon_summaries)
 ```
 
@@ -86,12 +94,17 @@ and SHA-256 identities of the inputs, configuration and outputs.
 The machine field `family_id` stores an analyst-declared provenance group. A
 configurable voting unit may combine this group with comparison and target
 taxon. Records with an indeterminate group, unsupported direction, unresolved
-taxonomy or ineligible source state abstain. Opposite directions inside a unit
-remain a conflict. Under the current binary unanimity rule, two-stage
-comparison collapse and direct provenance-group collapse are algebraically
-equivalent final estimators. The two-stage path retains comparison-level audit
-detail. Separate-panel voting is available as an explicit sensitivity and can
-reveal when repeated panels inflate nominal support.
+taxonomy or ineligible source state abstain. Otherwise eligible records outside
+the configured comparison or evidence tier are marked out of scope. Neither
+state counts as evidence in the opposite direction.
+
+Within a voting unit, opposite directions remain a conflict. Under the current
+binary unanimity rule, two-stage comparison collapse and direct provenance-group
+collapse are algebraically equivalent final estimators. The two-stage path
+retains comparison-level audit detail. Selection requires support to reach the
+configured minimum, opposition to remain at or below its maximum, and support
+to be strictly greater than opposition. Separate-panel voting provides a
+sensitivity analysis for identifying repeated panels that inflate nominal support.
 
 Taxonomic folding is conservative. A source record at the target rank can map
 directly. A lower-rank record can fold upwards only when the registered input
@@ -112,7 +125,7 @@ The `reproducibility/` directory contains:
   inputs and summaries;
 - the purposively selected hepatocellular carcinoma provenance stress test,
   its report–group registry and complete analytical recipe;
-- a clean public-resource adapter, independent validator and registered controls;
+- a public-resource adapter, independent validator and registered controls;
 - a checksum-enforcing helper for the two gutMDisorder workbooks labelled v3
   by the official resource service;
 - redistribution-safe summaries from the non-pooled public-resource
@@ -171,6 +184,6 @@ curation remain upstream analytical tasks.
 
 ## Licence and citation
 
-The software is licensed under the MIT licence. The accompanying
-reproducibility datasets are released under CC BY 4.0. Citation metadata are
-provided in `CITATION.cff`. Version 0.1.2 source and reproducibility materials are included in this distribution. Citation metadata are provided in `CITATION.cff`.
+The software is licensed under MIT. Author-produced reproduction inputs and derived tables are licensed under CC BY 4.0; third-party provider exports retain their own rights and are not redistributed. Citation metadata are in `CITATION.cff`.
+
+Cite ProvFold 0.1.2 using DOI `10.5281/zenodo.22798557`. The software record and version are not a substitute for the exact content identity used in an analysis: retain the Git source revision or archive checksum when reporting a run. `DISTRIBUTION_IDENTITY.json` records the distribution identity, and `SHA256SUMS.csv` identifies its files. The companion archive is named `ProvFold-0.1.2-reproducibility.zip`; its `machine_readable/TABLE_MAP.csv` links Tables S1–S47 to their source and generation entries.

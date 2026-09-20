@@ -5,7 +5,7 @@ Run commands from the source root with Python 3.11 or later. The core has no thi
 ## Complete run
 
 ```bash
-python reproducibility/reproduce_all.py --output-dir results/complete --public-input-dir /absolute/path/to/source_inputs
+python reproducibility/reproduce_all.py --output-dir results/complete --public-input-dir ../source_inputs
 ```
 
 The command runs unit tests, release checks, the minimal recipe, AH and HCC recipes, alpha-diversity recalculation and its independent numerical validator, the complete synthetic benchmark, metric validation, deterministic replay samples, all-scenario threshold calibration and estimator-equivalence checks, and the three-arm public-resource analysis and its independent validator. It exits non-zero on failure. With no `--public-input-dir`, public-resource analysis is explicitly recorded as NOT_RUN rather than passed. Figure rendering is a separate optional step requiring Matplotlib, NumPy and Pillow.
@@ -14,7 +14,7 @@ The command runs unit tests, release checks, the minimal recipe, AH and HCC reci
 
 ## Input boundary
 
-The distribution contains all synthetic parameters, the seed schedule, source-linked AH/HCC extraction inputs, analytical recipes, validators, figure inputs and expected analytical outputs. The five public-resource source files are specified by filename, size and SHA-256 in `reproducibility/public_evaluation/source_input_identities.csv`. The adapter rejects any identity mismatch. Keep source exports in a separate local input directory, not in the public repository. See `SOURCE_INPUTS.md` for acquisition and licence boundaries. All public-resource arms remain separate.
+The distribution contains all synthetic parameters, the seed schedule, source-linked AH/HCC extraction inputs, analytical recipes, validators, figure inputs and expected analytical outputs. The five public-resource source files are specified by filename, size and SHA-256 in `reproducibility/public_evaluation/source_input_identities.csv`. The adapter rejects any identity mismatch. Keep source exports in a separate local input directory, not in the public repository. See `reproducibility/public_evaluation/SOURCE_INPUTS.md` for acquisition and licence boundaries. All public-resource arms remain separate.
 
 ## Expected-output contract
 

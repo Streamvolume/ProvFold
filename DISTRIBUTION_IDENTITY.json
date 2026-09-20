@@ -1,0 +1,9 @@
+{
+  "software_version": "0.1.2",
+  "distribution_id": "provfold-0.1.2-20260920",
+  "distribution_kind": "source",
+  "software_doi": "10.5281/zenodo.22798557",
+  "repository": "https://github.com/Streamvolume/ProvFold",
+  "file_identity": "SHA256SUMS.csv",
+  "identity_scope": "The software version and DOI identify the software record. The file inventory identifies this distribution. Report the Git source revision or archive checksum when reporting a run."
+}

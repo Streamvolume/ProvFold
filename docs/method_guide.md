@@ -4,11 +4,11 @@ ProvFold separates five operations that flat vote counting often conflates.
 
 1. Validate source and mapping states without inferring missing provenance.
 2. Resolve only explicit target-rank lineages; higher ranks never map downwards.
-3. Collapse eligible rows within family × comparison × target taxon.
-4. Collapse multiple primary comparisons to one family-level taxon state.
+3. Collapse eligible rows within provenance group × comparison × target taxon.
+4. Collapse multiple primary comparisons to one provenance-group taxon state.
 5. Evaluate both directions against a declared minimum-support and maximum-opposition rule.
 
-A record abstains when its family is indeterminate, its direction is unsupported, its mapping is ineligible, a lower-rank record lacks a frozen target lineage, or a higher-rank record would require downward inference. Opposite directions in the same unit or family remain explicit conflicts. With the default `abstain` conflict policy, conflicts do not support either direction; with `opposition`, each conflict counts against both directional hypotheses.
+Here `family_id` names an analyst-declared provenance group, not the taxonomic family rank. A record abstains when its provenance group is indeterminate, its direction is unsupported, its mapping is ineligible, a lower-rank record lacks a frozen target lineage, or a higher-rank record would require downward inference. Otherwise eligible records outside the configured comparison or evidence tier remain out of scope. Opposite directions in the same unit or provenance group remain explicit conflicts. With the default `abstain` conflict policy, conflicts do not support either direction; with `opposition`, each conflict counts against both directional hypotheses.
 
 A direction is retained only if support is at least `minimum_support`, opposition is at most `maximum_opposition`, and support is strictly greater than opposition. With exactly two configured directions, these conditions allow at most one direction to pass.
 

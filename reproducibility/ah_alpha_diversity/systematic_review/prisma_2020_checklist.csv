@@ -38,6 +38,6 @@ item,topic,checklist_requirement,reported_location,status_or_note
 24a,Registration,Give registration details,AF1 S8.1,PROSPERO identifier and registration version reported
 24b,Protocol,Identify protocol access,AF1 S8.1; supplementary reference to PROSPERO,Registered URL retained; no newly amended registration claimed
 24c,Amendments,Explain protocol deviations,AF1 S8.1,Severity/prognosis eligibility requirement relaxed because the planned severity analysis could not be completed; rationale and implemented criteria disclosed
-25,Support,Describe financial and other support,Main Funding; Author_Funding_Declarations.docx,Author-confirmed funding statement supplied; funder involvement is not separately reported
+25,Support,Describe financial and other support,Main Funding,Funding statement reported; funder involvement is not separately reported
 26,Competing interests,Declare competing interests,Main Declaration of competing interest; Author_Funding_Declarations.docx,Competing-interest declaration confirmed by the authors
 27,Availability,Describe availability of materials,Main Data and software availability; Additional files 2-3,Packaged and external input files distinguished; complete public-resource analysis executed with SHA-256-verified inputs

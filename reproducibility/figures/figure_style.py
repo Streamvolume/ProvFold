@@ -1,4 +1,4 @@
-"""Shared journal-style settings for the revised ProvFold figures."""
+"""Shared typography and export settings for ProvFold figures."""
 
 from __future__ import annotations
 

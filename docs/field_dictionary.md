@@ -20,3 +20,7 @@
 | `source_location` | required | File, page, table, figure or database-row provenance. |
 
 Additional source-specific fields are retained by the loader but are not used unless an adapter explicitly maps them into this contract.
+
+## Output and analysis fields
+
+The companion reproducibility archive's `DATA_DICTIONARY.md` describes output fields, units and missing-state conventions by analysis class; `DATA_CATALOG.csv` records actual headers, and `machine_readable/TABLE_MAP.csv` links Tables S1–S47 to their sources and generation entry points. In software summaries, a blank selected direction is not zero support: inspect the signal classification and directional counts. `family_id` retains its input identity throughout the record map, evidence-unit and group-state outputs.
